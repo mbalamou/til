@@ -33,6 +33,8 @@ prettier-eslint
 1. CTRL+SHIFT+A
 1. Search for "External Tools" (Settings)
 1. Program: `./node_modules/.bin/prettier-eslint` Arguments: `--write "$FilePath$"`
+1. Show "Advanced Options"
+1. Uncheck "Open console for tools output"
 
 ## Shortcuts
 
