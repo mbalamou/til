@@ -65,6 +65,7 @@ Meta keys:
 | Control Command Space | Open [Emoji Viewer](https://support.apple.com/en-ca/guide/mac-help/mchlp1560/mac) |
 | Command Shift . | [Show hidden files](https://osxdaily.com/2009/02/25/show-hidden-files-in-os-x/) |
 | Command n | New window |
+| Control Command q | Lock screen |
 
 ### Disable command+h (hide window)
 
