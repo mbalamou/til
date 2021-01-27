@@ -1,4 +1,4 @@
-# MacOSX
+# macOS
 
 ## Initial setup
 
