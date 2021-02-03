@@ -119,6 +119,7 @@ git push origin :refs/tags/v0.0.1
 
 ```
 <details><summary>Click here to expand</summary>
+
 This section is hidden until the above is clicked.
 </details>
 ```
