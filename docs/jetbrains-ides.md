@@ -20,6 +20,14 @@ ENTER in the Find-Popup performs a full search in the docked bottom window, whic
 1. Enter "Registry"
 1. Set `ide.find.enter.as.ok=true`
 
+[Display a "memory indicator"](https://stackoverflow.com/a/54573786) in the [status bar](https://www.jetbrains.com/help/idea/guided-tour-around-the-user-interface.html#status-bar).
+
+1. Right-click the status bar
+1. Select Memory Indicator
+
+Click the memory indicator to run the garbage collector.
+You can also [increase the memory limits](https://www.jetbrains.com/help/idea/increasing-memory-heap.html).
+
 ## Avoid error when editing files on Nix filesystems
 
 * [JetBrains support](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000111590-Cannot-save-files)

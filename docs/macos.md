@@ -10,6 +10,7 @@ brew install \
     nmap \
     rxvt-unicode \
     svn \
+    watch \
     wget
 
 # Fonts
