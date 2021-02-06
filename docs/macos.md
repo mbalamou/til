@@ -23,6 +23,11 @@ brew cask install \
   font-ubuntu
 ```
 
+## Customizations
+
+1. Navigate to: Accessibility > Display > Display (tab)
+1. Enable: Reduce transparency
+
 ## Increase maxfiles
 
 * [Blog](https://docs.riak.com/riak/kv/latest/using/performance/open-files-limit/index.html#mac-os-x-el-capitan)
@@ -46,6 +51,13 @@ END
 curl -Lks 'https://git.io/rg-ssl' | ruby
 brew info openssl
 sudo cp /usr/local/etc/openssl\@1.1/cert.pem  /opt/local/etc/openssl/cert.pem
+```
+
+## Reinstall xcode
+
+```
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
 ```
 
 ## Keyboard Shortcuts

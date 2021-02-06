@@ -32,6 +32,9 @@
 ```
 # Update one package
 bundle lock --update=packwerk
+
+# Remove all unused gems in your bundler directory.
+bundle clean --force
 ```
 
 ## Tips and tricks
