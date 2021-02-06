@@ -23,6 +23,13 @@ brew cask install \
   font-ubuntu
 ```
 
+## Common commands
+
+```
+brew upgrade
+port -d selfupdate
+```
+
 ## Customizations
 
 1. Navigate to: Accessibility > Display > Display (tab)

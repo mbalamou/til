@@ -103,6 +103,7 @@ rake
     * [Application basenames](docs/linux.md#application-basenames)
   * [macOS](docs/macos.md#macos)
     * [Initial setup](docs/macos.md#initial-setup)
+    * [Common commands](docs/macos.md#common-commands)
     * [Customizations](docs/macos.md#customizations)
     * [Increase maxfiles](docs/macos.md#increase-maxfiles)
     * [Fix OpenSSL errors](docs/macos.md#fix-openssl-errors)
