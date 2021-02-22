@@ -26,6 +26,9 @@ $ systemctl list-dependencies $service
 ```
 # Tail logs for a service
 $ journalctl -f -u $sevice
+
+# View logs from the previous boot until the last reboot
+journalctl --boot=-1
 ```
 ## User units
 
