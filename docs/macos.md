@@ -63,6 +63,10 @@ sudo cp /usr/local/etc/openssl\@1.1/cert.pem  /opt/local/etc/openssl/cert.pem
 ## Reinstall xcode
 
 ```
+# Get Xcode version
+xcode-select  --version
+
+# Re-install Xcode CLI tools
 sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 ```
