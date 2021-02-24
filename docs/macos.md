@@ -11,7 +11,8 @@ brew install \
     rxvt-unicode \
     svn \
     watch \
-    wget
+    wget \
+    xclip
 
 # Fonts
 brew tap homebrew/cask-fonts

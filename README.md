@@ -166,6 +166,7 @@ rake
   * [tmux](docs/tmux.md#tmux)
     * [Common commands](docs/tmux.md#common-commands)
     * [Usage](docs/tmux.md#usage)
+    * [Troubleshooting](docs/tmux.md#troubleshooting)
   * [vim](docs/vim.md#vim)
     * [Commands](docs/vim.md#commands)
     * [Tips](docs/vim.md#tips)
