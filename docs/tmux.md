@@ -71,4 +71,4 @@ $ tmux source-file ~/.tmux.conf
 
 Problem: Meta key shortcuts do not work on macOS. Eg. `bind -n M-h select-pane -L`
 
-Solution: Navigate to: iTerm2 > Profiles > Keys, then set "Left Option Key" to "Esc+"
+Solution: Navigate to: iTerm2 > Profiles > Keys, then set "Left Option Key" and "Right Option Key" to "Esc+". n.b. [Be sure to update both left and right](https://groups.google.com/d/embed/msg/iterm2-discuss/s21SdO1uCcM/z_dJxLJFBAAJ).
