@@ -12,6 +12,7 @@ Command|Description
 ---|---
 `C-b ?`|Help; list all keybindings
 `C-b d`|Detach
+`C-b C-b d`|[Detach inner tmux session](https://superuser.com/a/249671)
 `C-b D`|List clients
 `C-b [`|Enter Copy/Paste mode
 `C-b ]`|Paste
