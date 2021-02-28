@@ -165,6 +165,7 @@ rake
       * [Lingering](docs/systemd.md#lingering)
   * [tmux](docs/tmux.md#tmux)
     * [Common commands](docs/tmux.md#common-commands)
+    * [Keyboard shortcuts](docs/tmux.md#keyboard-shortcuts)
     * [Usage](docs/tmux.md#usage)
     * [Troubleshooting](docs/tmux.md#troubleshooting)
   * [vim](docs/vim.md#vim)
