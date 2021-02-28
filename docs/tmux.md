@@ -4,7 +4,8 @@
 * [Official Wiki](https://github.com/tmux/tmux/wiki/)
 * [Arch wiki](https://wiki.archlinux.org/index.php/tmux)
 * [Display formats](https://github.com/tmux/tmux/wiki/Formats)
-* [Copy/paste](http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting-ubuntu/#comment-4242059466)
+* Copy/paste in [Linux](http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting-ubuntu/#comment-4242059466) and
+[macOS (iTerm2)](https://stackoverflow.com/questions/12287432/how-to-copy-to-system-clipboard-from-tmux-output-after-mouse-selection)
 
 ## Common commands
 
@@ -12,6 +13,7 @@ Command|Description
 ---|---
 `show -s/-g/-w`|[Display options](https://superuser.com/a/759156)
 `set-option [-p|-w|-s|-g]`|Set a pane option with -p, a window option with -w, a server option with -s, otherwise a session option. If -g is given, the global session or window option is set. tmux will infer the type from the option name, assuming -w for pane options. (alias: `set`)
+`set-option -u`|Unset a non-global option to apply the global option (alias: `set -u`)
 
 ## Keyboard shortcuts
 
