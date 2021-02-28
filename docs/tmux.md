@@ -21,13 +21,16 @@ Shortcut|Description
 ---|---
 `C-b ?`|Help; list all keybindings
 `C-b d`|Detach
+`C-b !`|Pop-out pane
 `C-b C-b d`|[Detach inner tmux session](https://superuser.com/a/249671)
 `C-b D`|List clients
 `C-b [`|Enter Copy/Paste mode
 `C-b ]`|Paste
 `C-b 0-9`|Switch to window number
-`C-b n`|Switch to the next window
+`C-b (`|Switch to the previous session
+`C-b )`|Switch to the next session
 `C-b p`|Switch to the previous window
+`C-b n`|Switch to the next window
 `C-b q`|Print pane numbers
 `C-b Up|Down|Left|Right`|Change pane focus
 `C-b C-[Up|Down|Left|Right]`|Resize current pane
