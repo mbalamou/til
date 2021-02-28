@@ -12,8 +12,10 @@
 Command|Description
 ---|---
 `show -s/-g/-w`|[Display options](https://superuser.com/a/759156)
-`set-option [-p|-w|-s|-g]`|Set a pane option with -p, a window option with -w, a server option with -s, otherwise a session option. If -g is given, the global session or window option is set. tmux will infer the type from the option name, assuming -w for pane options. (alias: `set`)
+`set-option [-p|-w|-s|-g]`|Set a [pane|window|server] option, otherwise a session option. If -g is given, the global session or window option is set. tmux will infer the type from the option name, assuming -w for pane options. (alias: `set`)
 `set-option -u`|Unset a non-global option to apply the global option (alias: `set -u`)
+`bind [-n|-r]|Bind a keyboard shortcut [without prefix|repeatable]
+`unbind [shortcut]|Unbind a keyboard shortcut
 
 ## Keyboard shortcuts
 
