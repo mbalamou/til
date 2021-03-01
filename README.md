@@ -173,7 +173,9 @@ rake
     * [Tips](docs/vim.md#tips)
     * [Key combinations](docs/vim.md#key-combinations)
   * [Visual Studio Code](docs/vscode.md#visual-studio-code)
-  * [Add CLI executable on macOS](docs/vscode.md#add-cli-executable-on-macos)
+    * [Keyboard shortcuts](docs/vscode.md#keyboard-shortcuts)
+      * [macOS](docs/vscode.md#macos)
+    * [Add CLI executable on macOS](docs/vscode.md#add-cli-executable-on-macos)
   * [wget](docs/wget.md#wget)
     * [Download recursively](docs/wget.md#download-recursively)
 <!-- mdtoc-end -->
