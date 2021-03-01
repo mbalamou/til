@@ -1,6 +1,36 @@
 # Visual Studio Code
 
-# Add CLI executable on macOS
+* [Tips and tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+
+## Keyboard shortcuts
+
+* [Keybinding docs](https://code.visualstudio.com/docs/getstarted/keybindings)
+* Keyboard shortcuts for [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) or [macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
+### macOS
+
+Shortcut|Description
+---|---
+⌘P|Quick Open, Go to File
+⇧⌘P|Show Command Palette
+⌃`|Show integrated terminal
+⌘K ⌘C|Add line comment
+⌘K ⌘U|Remove line comment
+⇧⌥A|Toggle block comment
+⇧⌘O|Go to Symbol
+⇧⌘E|Show Explorer / Toggle focus
+⇧⌘F|Show Search
+⇧⌘U|Show Output panel
+⇧⌘H|Replace in files
+⇧⌘V|Open Markdown preview
+F9|Toggle breakpoint
+F5|Start/Continue
+F1|Step into
+⇧F11|Step out
+F10|Step over
+⇧F5|Stop
+
+## Add CLI executable on macOS
 
 1. Launch VS Code.
 1. Open the Command Palette (⇧⌘P)
