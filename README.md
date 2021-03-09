@@ -68,6 +68,8 @@ rake
       * [Collapsable section markdown](docs/git.md#collapsable-section-markdown)
   * [go](docs/go.md#go)
     * [Vendor](docs/go.md#vendor)
+  * [Interviewing](docs/interviewing.md#interviewing)
+    * [Glossary](docs/interviewing.md#glossary)
   * [iterm2](docs/iterm2.md#iterm2)
     * [Copy / Paste](docs/iterm2.md#copy--paste)
     * [Unlimited scrollback buffer](docs/iterm2.md#unlimited-scrollback-buffer)
