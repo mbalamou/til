@@ -1,5 +1,26 @@
 # macOS
 
+## Keyboard Shortcuts
+
+[All shortcuts](https://support.apple.com/en-ca/HT201236)
+
+Meta keys:
+
+- Command ⌘
+- Shift ⇧
+- Option (Alt) ⌥
+- Control (Ctrl) ⌃
+- Caps Lock ⇪
+- Fn
+
+| Key combination | Description |
+| --- | --- |
+| Control Command Space | Open [Emoji Viewer](https://support.apple.com/en-ca/guide/mac-help/mchlp1560/mac) |
+| Command Shift . | [Show hidden files](https://osxdaily.com/2009/02/25/show-hidden-files-in-os-x/) |
+| Command n | New window |
+| Control Command q | Lock screen |
+| / | [Go to a directory](https://support.apple.com/en-ca/guide/mac-help/mchlp1236/mac) when focussed on a Finder window |
+
 ## Initial setup
 
 ```
@@ -71,26 +92,6 @@ xcode-select  --version
 sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 ```
-
-## Keyboard Shortcuts
-
-[All shortcuts](https://support.apple.com/en-ca/HT201236)
-
-Meta keys:
-
-- Command ⌘
-- Shift ⇧
-- Option (Alt) ⌥
-- Control (Ctrl) ⌃
-- Caps Lock ⇪
-- Fn
-
-| Key combination | Description |
-| --- | --- |
-| Control Command Space | Open [Emoji Viewer](https://support.apple.com/en-ca/guide/mac-help/mchlp1560/mac) |
-| Command Shift . | [Show hidden files](https://osxdaily.com/2009/02/25/show-hidden-files-in-os-x/) |
-| Command n | New window |
-| Control Command q | Lock screen |
 
 ### Disable command+h (hide window)
 
