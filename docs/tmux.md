@@ -57,13 +57,13 @@ Shortcut|Description
 ```
 $ tmux
 
-# Detach
-C-b d
-
 $ tmux attach
 
 # Attach to an existing session named "dev" if it exists, or create a new one if it does not
 $ tmux new -As dev
+
+# Start a new detached session
+$ tmux new -d -s dev
 
 $ tmux ls
 

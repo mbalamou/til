@@ -52,6 +52,7 @@ rake
   * [Git](docs/git.md#git)
     * [Initialize a repo](docs/git.md#initialize-a-repo)
     * [Show commit log with branches and tags](docs/git.md#show-commit-log-with-branches-and-tags)
+    * [Create a patch](docs/git.md#create-a-patch)
     * [Fetch changes from origin/master without checking out master](docs/git.md#fetch-changes-from-originmaster-without-checking-out-master)
     * [Clean-up local branches](docs/git.md#clean-up-local-branches)
     * [Prune tracking branches](docs/git.md#prune-tracking-branches)
