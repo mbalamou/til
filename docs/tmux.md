@@ -55,17 +55,15 @@ Shortcut|Description
 ## Usage
 
 ```
-$ tmux
-
+$ tmux ls
 $ tmux attach
+$ tmux attach -t ${sessionName}
 
 # Attach to an existing session named "dev" if it exists, or create a new one if it does not
 $ tmux new -As dev
 
-# Start a new detached session
+# Start a new detached session named "dev"
 $ tmux new -d -s dev
-
-$ tmux ls
 
 # Show current setting value, eg.
 $ tmux show -s status-right
