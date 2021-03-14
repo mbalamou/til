@@ -8,6 +8,15 @@
   - Set the "Notify me of a new Ubuntu version" dropdown menu to "For any new version".
   - `$ sudo do-release-upgrade -d`
 
+## Disable release upgrade notifications
+
+* [Ask Ubuntu](https://askubuntu.com/questions/843778/how-to-disable-release-upgrade-notification-emails)
+
+```
+sudo sed -i 's/^\(Prompt\s*=\s*\)\w\+/\1never/g' /etc/update-manager/release-upgrades
+echo -n "" > /var/lib/ubuntu-release-upgrader/release-upgrade-available
+```
+
 ## Search for Ubuntu package
 
 ```

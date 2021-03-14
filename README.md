@@ -87,6 +87,7 @@ rake
     * [Minikube](docs/kubernetes.md#minikube)
   * [Linux](docs/linux.md#linux)
     * [Upgrade Ubuntu from non-LTS to LTS](docs/linux.md#upgrade-ubuntu-from-non-lts-to-lts)
+    * [Disable release upgrade notifications](docs/linux.md#disable-release-upgrade-notifications)
     * [Search for Ubuntu package](docs/linux.md#search-for-ubuntu-package)
     * [Fix broken grub install](docs/linux.md#fix-broken-grub-install)
     * [Magic SysRq Keys](docs/linux.md#magic-sysrq-keys)
