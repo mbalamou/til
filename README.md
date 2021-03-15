@@ -67,6 +67,7 @@ rake
     * [Delete tag](docs/git.md#delete-tag)
     * [Github](docs/git.md#github)
       * [Collapsable section markdown](docs/git.md#collapsable-section-markdown)
+      * [Search](docs/git.md#search)
   * [go](docs/go.md#go)
     * [Vendor](docs/go.md#vendor)
   * [Interviewing](docs/interviewing.md#interviewing)
