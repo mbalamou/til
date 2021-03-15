@@ -132,3 +132,16 @@ git push origin :refs/tags/v0.0.1
 This section is hidden until the above is clicked.
 </details>
 ```
+
+### Search
+
+* [GitHub docs](https://docs.github.com/en/github/managing-your-work-on-github/using-search-to-filter-issues-and-pull-requests)
+
+
+```
+is:pr
+author:andornaut 
+archived:false 
+is:closed 
+reviewed-by:andornaut
+```
