@@ -135,13 +135,15 @@ This section is hidden until the above is clicked.
 
 ### Search
 
-* [GitHub docs](https://docs.github.com/en/github/managing-your-work-on-github/using-search-to-filter-issues-and-pull-requests)
+* [GitHub searching-issues-and-pull-requests](https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests)
+* [GitHub using-search-to-filter-issues-and-pull-requests](https://docs.github.com/en/github/managing-your-work-on-github/using-search-to-filter-issues-and-pull-requests)
 
 
 ```
-is:pr
+is:pr,issue
+is:closed 
 author:andornaut 
 archived:false 
-is:closed 
+org:ORGNAME
 reviewed-by:andornaut
 ```
