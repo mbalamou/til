@@ -28,6 +28,7 @@ brew install \
     bash \
     coreutils \
     jq \
+    mosh \
     nmap \
     rxvt-unicode \
     svn \

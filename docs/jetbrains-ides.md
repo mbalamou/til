@@ -1,5 +1,11 @@
 # JetBrains IDEs
 
+## Colors
+
+Preferences > Editor > Color Scheme > General > Scheme: Solarized Light (4lex4)
+Preferences > Editor > Color Scheme > General > Editor > Caret row > Background: EEE8D4
+Preferences > Editor > Color Scheme > General > Text > Default text > Background: FDF9ED
+
 ## Fixes and Customisations
 
 Fix [focus stealing bug](https://github.com/baskerville/bspwm/issues/841):

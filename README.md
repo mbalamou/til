@@ -76,6 +76,7 @@ rake
     * [Copy / Paste](docs/iterm2.md#copy--paste)
     * [Unlimited scrollback buffer](docs/iterm2.md#unlimited-scrollback-buffer)
   * [JetBrains IDEs](docs/jetbrains-ides.md#jetbrains-ides)
+    * [Colors](docs/jetbrains-ides.md#colors)
     * [Fixes and Customisations](docs/jetbrains-ides.md#fixes-and-customisations)
     * [Avoid error when editing files on Nix filesystems](docs/jetbrains-ides.md#avoid-error-when-editing-files-on-nix-filesystems)
     * [External Tools](docs/jetbrains-ides.md#external-tools)
