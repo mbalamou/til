@@ -11,9 +11,10 @@
 
 Command|Description
 ---|---
-`bind [-n|-r]|Bind a keyboard shortcut [without prefix|repeatable]
-`unbind [shortcut]|Unbind a keyboard shortcut
+`bind [-n|-r]`|Bind a keyboard shortcut [without prefix|repeatable]
+`unbind [shortcut]`|Unbind a keyboard shortcut
 `kill-session`|Terminate a session
+`movew -r`|Re-number all windows
 `set-option [-p|-w|-s|-g]`|Set a [pane|window|server] option, otherwise a session option. If -g is given, the global session or window option is set. tmux will infer the type from the option name, assuming -w for pane options. (alias: `set`)
 `set-option -u`|Unset a non-global option to apply the global option (alias: `set -u`)
 `show -s/-g/-w`|[Display options](https://superuser.com/a/759156)
