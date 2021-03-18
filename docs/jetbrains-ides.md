@@ -1,5 +1,7 @@
 # JetBrains IDEs
 
+* [Tips and tricks (PhpStorm)](https://masteringphpstorm.com/tips-and-tricks)
+
 ## Colors
 
 Preferences > Editor > Color Scheme > General > Scheme: Solarized Light (4lex4)
