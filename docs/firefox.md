@@ -1,5 +1,17 @@
 # Firefox
 
+## Credit card autofill / autocomplete
+
+* [Reddit](https://www.reddit.com/r/firefox/comments/kcdacw/no_credit_card_auto_fill_option_already_tried/)
+
+about:config settings
+```
+extensions.formautofill.available = 'on'
+extensions.formautofill.creditCards.available = true
+extensions.formautofill.creditCards.enabled = true
+extensions.formautofill.supportedCountries = 'US,CA'
+```
+
 ## Right-click bug with BSPWM
 
 Right-click automatically selects the option under the mouse when the mouse button is released. This makes it difficult to use the right-click context menu. This bug only occurs in certain window managers such as BSPWM or i3 when the firefox window is not fullscreen.
