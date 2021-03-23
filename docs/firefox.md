@@ -2,6 +2,7 @@
 
 ## Credit card autofill / autocomplete
 
+* [Mozilla wiki](https://wiki.mozilla.org/Firefox/Features/Form_Autofill#Release)
 * [Reddit](https://www.reddit.com/r/firefox/comments/kcdacw/no_credit_card_auto_fill_option_already_tried/)
 
 about:config settings
