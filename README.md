@@ -46,6 +46,7 @@ rake
     * [Print volumes](docs/docker.md#print-volumes)
     * [Remove all volumes](docs/docker.md#remove-all-volumes)
   * [Firefox](docs/firefox.md#firefox)
+    * [Credit card autofill / autocomplete](docs/firefox.md#credit-card-autofill--autocomplete)
     * [Right-click bug with BSPWM](docs/firefox.md#right-click-bug-with-bspwm)
       * [Workaround](docs/firefox.md#workaround)
     * [Add-ons (browser extensions) in Firefox Nightly on Android](docs/firefox.md#add-ons-browser-extensions-in-firefox-nightly-on-android)
