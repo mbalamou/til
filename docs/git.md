@@ -47,11 +47,19 @@ $ git branch -D un-merged-branch-name
 ```
 
 ## Prune tracking branches
+
+* [Fix `error: cannot lock ref`](https://stackoverflow.com/a/62429686)
+
 ```
-$ git branch -r
-$ git remote prune origin
+git gc --prune=now
+git prune
+git remote prune origin
+
+git branch -r
+git remote prune origin
+
 # Or just fetch with -p
-$ git fetch -p
+git fetch -p
 ```
 
 ## List merged branches on origin
@@ -141,9 +149,9 @@ This section is hidden until the above is clicked.
 
 ```
 is:pr,issue
-is:closed 
-author:andornaut 
-archived:false 
+is:closed
+author:andornaut
+archived:false
 org:ORGNAME
 reviewed-by:andornaut
 ```
