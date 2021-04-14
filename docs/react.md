@@ -10,3 +10,9 @@
 * [Apollo FetchPolicy options](https://www.apollographql.com/docs/react/data/queries/#setting-a-fetch-policy)
 * [Google Core Web Vitals](https://web.dev/vitals/)
 * [React profiler](https://reactjs.org/docs/profiler.html)
+
+## TypeScript
+
+* [React Typescript handbook](https://www.typescriptlang.org/docs/handbook/react.html)
+* [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
+* [Examples](https://dev.to/bendman/react-typescript-cheatsheet-1f2h)

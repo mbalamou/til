@@ -84,7 +84,7 @@ $ git push --force
 ## Pull a --force pushed branch
 ```
 git fetch
-git reset origin/master --hard
+git reset origin/$(git branch --show-current) --hard
 ```
 
 ## Change origin URL
@@ -126,6 +126,15 @@ git update-index --no-assume-unchanged ${filepath}
 ```
 git tag -d v0.0.1
 git push origin :refs/tags/v0.0.1
+```
+
+## Undo commits
+
+* [How-to](https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/)
+
+```
+# Revert a merge commit
+git revert -m 1 ${MERGE_COMMIT_SHA}
 ```
 
 ## Github
