@@ -14,6 +14,16 @@ $ sudo rm /etc/resolv.conf
 $ sudo systemctl restart NetworkManager
 ```
 
+## List DNS servers
+
+* [StackOverflow](https://unix.stackexchange.com/a/77633)
+
+`/etc/resolv.conf` often lists a local caching nameserver
+
+```
+( nmcli dev list || nmcli dev show ) 2>/dev/null | grep DNS
+```
+
 ## HTTPS SSH tunnel (port forward through jump box)
 
 ```
