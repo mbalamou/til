@@ -25,7 +25,9 @@ apt-file update
 apt-file search ${pattern}
 ```
 
-## Free up disk-space
+## Free up disk-space on Ubuntu
+
+* [Ask Ubuntu](https://askubuntu.com/a/984800)
 
 ```
 sudo apt autoremove && sudo apt clean
