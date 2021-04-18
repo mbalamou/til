@@ -94,7 +94,7 @@ rake
     * [Upgrade Ubuntu from non-LTS to LTS](docs/linux.md#upgrade-ubuntu-from-non-lts-to-lts)
     * [Disable release upgrade notifications](docs/linux.md#disable-release-upgrade-notifications)
     * [Search for Ubuntu package](docs/linux.md#search-for-ubuntu-package)
-    * [Free up disk-space](docs/linux.md#free-up-disk-space)
+    * [Free up disk-space on Ubuntu](docs/linux.md#free-up-disk-space-on-ubuntu)
     * [Fix broken grub install](docs/linux.md#fix-broken-grub-install)
     * [Magic SysRq Keys](docs/linux.md#magic-sysrq-keys)
     * [Monitoring and statistics](docs/linux.md#monitoring-and-statistics)
