@@ -25,6 +25,12 @@ apt-file update
 apt-file search ${pattern}
 ```
 
+## Free up disk-space
+
+```
+sudo apt autoremove && sudo apt clean
+```
+
 ## Fix broken grub install
 
 ```
