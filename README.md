@@ -133,6 +133,7 @@ rake
   * [Networking](docs/networking.md#networking)
     * [Disable dnsmasq / systemd-resolved](docs/networking.md#disable-dnsmasq--systemd-resolved)
     * [List DNS servers](docs/networking.md#list-dns-servers)
+    * [Show processes listening or connecting to the network](docs/networking.md#show-processes-listening-or-connecting-to-the-network)
     * [HTTPS SSH tunnel (port forward through jump box)](docs/networking.md#https-ssh-tunnel-port-forward-through-jump-box)
     * [nmcli](docs/networking.md#nmcli)
     * [Test performance](docs/networking.md#test-performance)
