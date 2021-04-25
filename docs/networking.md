@@ -29,7 +29,10 @@ $ sudo systemctl restart NetworkManager
 * [Find out what processes are making network connections](https://shallowsky.com/blog/linux/monitor-net-connections.html)
 
 ```
+# Alternatives
 netstat -A inet -p
+ss -tp
+ss -tpla
 ```
 
 ## HTTPS SSH tunnel (port forward through jump box)
