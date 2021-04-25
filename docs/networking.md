@@ -24,6 +24,14 @@ $ sudo systemctl restart NetworkManager
 ( nmcli dev list || nmcli dev show ) 2>/dev/null | grep DNS
 ```
 
+## Show processes listening or connecting to the network
+
+* [Find out what processes are making network connections](https://shallowsky.com/blog/linux/monitor-net-connections.html)
+
+```
+netstat -A inet -p
+```
+
 ## HTTPS SSH tunnel (port forward through jump box)
 
 ```
