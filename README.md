@@ -144,6 +144,7 @@ rake
     * [Publishing](docs/npm.md#publishing)
   * [pfSense](docs/pfsense.md#pfsense)
     * [Increase swap](docs/pfsense.md#increase-swap)
+    * [Domain Overrides over OpenVPN](docs/pfsense.md#domain-overrides-over-openvpn)
   * [PostgreSQL](docs/postgresql.md#postgresql)
     * [Diff schemas](docs/postgresql.md#diff-schemas)
     * [Query user password hash](docs/postgresql.md#query-user-password-hash)
