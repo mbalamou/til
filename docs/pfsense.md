@@ -14,3 +14,12 @@ Netgate SG-3100 can run out of memory when updating [Suricata](https://suricata-
 ```swapon -a```
 1. Verify swap is enabled:
 ```swapinfo```
+
+## Domain Overrides over OpenVPN
+
+* [OPN Sense forums](https://forum.opnsense.org/index.php?topic=6750.msg29210#msg29210)
+
+Set "Outgoing Network Interfaces" to "LAN"
+
+> The problem ist that unbound will by default send all replies out on all interfaces. We set the outbound interface to the LAN interface (while still listening on ALL). This routes the domain-overrides through the Tunnels and all others out the WAN interface.
+
