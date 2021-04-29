@@ -23,11 +23,14 @@ $ git log --graph --all --decorate
 ```
 
 ## Create a patch
-
 ```
 git diff --patch-with-raw > out.patch
 git diff HEAD~1 --relative
+```
 
+## Create a symbolic branch link
+```
+git symbolic-ref refs/heads/master refs/heads/main
 ```
 
 ## Fetch changes from origin/master without checking out master
