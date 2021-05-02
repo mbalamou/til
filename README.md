@@ -79,6 +79,7 @@ rake
     * [Copy / Paste](docs/iterm2.md#copy--paste)
     * [Unlimited scrollback buffer](docs/iterm2.md#unlimited-scrollback-buffer)
   * [JavaScript](docs/javascript.md#javascript)
+    * [NVM](docs/javascript.md#nvm)
   * [JetBrains IDEs](docs/jetbrains-ides.md#jetbrains-ides)
     * [Colors](docs/jetbrains-ides.md#colors)
     * [Fixes and Customisations](docs/jetbrains-ides.md#fixes-and-customisations)
