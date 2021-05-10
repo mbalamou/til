@@ -13,11 +13,14 @@ Command|Description
 ---|---
 `bind [-n|-r]`|Bind a keyboard shortcut [without prefix|repeatable]
 `unbind [shortcut]`|Unbind a keyboard shortcut
-`kill-session`|Terminate a session
+`kill-[pane|server|session|window]`|Close
 `movew -r`|Re-number all windows
+`new-window`|[Create](https://github.com/tmux/tmux/wiki/Getting-Started#creating-new-windows) and switch to a new window
+`rename-window -n $name`|Rename current window
 `set-option [-p|-w|-s|-g]`|Set a [pane|window|server] option, otherwise a session option. If -g is given, the global session or window option is set. tmux will infer the type from the option name, assuming -w for pane options. (alias: `set`)
 `set-option -u`|Unset a non-global option to apply the global option (alias: `set -u`)
 `show -s/-g/-w`|[Display options](https://superuser.com/a/759156)
+`split-window`|[Split](https://github.com/tmux/tmux/wiki/Getting-Started#splitting-the-window) the current window
 
 ## Keyboard shortcuts
 
@@ -25,7 +28,7 @@ Shortcut|Description
 ---|---
 `C-b ?`|Help; list all keybindings
 `C-b d`|Detach
-`C-b !`|Pop-out pane
+`C-b c`|Create a window
 `C-b C-b d`|[Detach inner tmux session](https://superuser.com/a/249671)
 `C-b D`|List clients
 `C-b [`|Enter Copy/Paste mode
@@ -48,10 +51,6 @@ Shortcut|Description
 `C-b $`|Rename the current session
 `C-b w`|Enter [tree mode](https://github.com/tmux/tmux/wiki/Getting-Started#choosing-sessions-windows-and-panes). `x` to kill a pane/window/session
 `C-b :`|Command line
-`C-b :kill-[pane|server|session|window]`|Close
-`C-b :new-window`|[Create](https://github.com/tmux/tmux/wiki/Getting-Started#creating-new-windows) and switch to a new window
-`C-b :rename-window -n $name`|Rename current window
-`C-b :split-window`|[Split](https://github.com/tmux/tmux/wiki/Getting-Started#splitting-the-window) the current window
 `C-c`|Cancel
 
 ## Usage
