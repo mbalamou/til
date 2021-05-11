@@ -71,6 +71,7 @@ rake
     * [Github](docs/git.md#github)
       * [Collapsable section markdown](docs/git.md#collapsable-section-markdown)
       * [Search](docs/git.md#search)
+      * [Tips](docs/git.md#tips)
   * [go](docs/go.md#go)
     * [Vendor](docs/go.md#vendor)
   * [Interviewing](docs/interviewing.md#interviewing)

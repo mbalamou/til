@@ -167,3 +167,7 @@ archived:false
 org:ORGNAME
 reviewed-by:andornaut
 ```
+
+### Tips
+
+* Add a `.patch` extension to a GitHub commit, diff, or PR URL to download a raw git patch, eg. https://github.com/andornaut/til/commit/5bbb06b4ce76443f9217546ee57738ae2ab4cd9a.patch
