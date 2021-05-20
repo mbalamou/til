@@ -79,6 +79,7 @@ rake
   * [iterm2](docs/iterm2.md#iterm2)
     * [Copy / Paste](docs/iterm2.md#copy--paste)
     * [Unlimited scrollback buffer](docs/iterm2.md#unlimited-scrollback-buffer)
+    * [Avoid accidentally closing iterm2](docs/iterm2.md#avoid-accidentally-closing-iterm2)
   * [JavaScript](docs/javascript.md#javascript)
     * [NVM](docs/javascript.md#nvm)
   * [JetBrains IDEs](docs/jetbrains-ides.md#jetbrains-ides)
