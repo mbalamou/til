@@ -3,11 +3,12 @@
 ## Credit card autofill / autocomplete
 
 * [Mozilla wiki](https://wiki.mozilla.org/Firefox/Features/Form_Autofill#Release)
+* [Mozilla support](https://support.mozilla.org/en-US/kb/credit-card-autofill)
 * [Reddit](https://www.reddit.com/r/firefox/comments/kcdacw/no_credit_card_auto_fill_option_already_tried/)
 
-about:config settings
+about:config settings:
 ```
-extensions.formautofill.available = 'on'
+extensions.formautofill.available = 'true'
 extensions.formautofill.creditCards.available = true
 extensions.formautofill.creditCards.enabled = true
 extensions.formautofill.supportedCountries = 'US,CA'
