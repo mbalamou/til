@@ -55,43 +55,29 @@ port -d selfupdate
 
 ## Customizations
 
+* [ChangeMenuBarColor](https://github.com/igorkulman/ChangeMenuBarColor)
+* [HazeOver](https://hazeover.com/) - Dim inactive windows
+
+### Reduce menu (top bar) transparency
+
 1. Navigate to: Accessibility > Display > Display (tab)
 1. Enable: Reduce transparency
 
-## Increase maxfiles
+### Dock
 
-* [Blog](https://docs.riak.com/riak/kv/latest/using/performance/open-files-limit/index.html#mac-os-x-el-capitan)
-* [Facebook Watchman](https://facebook.github.io/watchman/docs/install.html#installing-on-os-x-via-homebrew)
-* [StackOverflow](https://apple.stackexchange.com/a/366319)
-
-```
-$ echo 'ulimit -n 65536 104857' >> ~/.bashrc
-
-$ cat <<-END >> /etc/sysctl.conf
-kern.maxfiles=10485760
-kern.maxfilesperproc=104857
-END
-```
-
-## Fix OpenSSL errors
-
-* [Bundler SSL Guide](https://bundler.io/guides/rubygems_tls_ssl_troubleshooting_guide.html#troubleshooting-certificate-errors)
+* [uBar](https://brawersoftware.com/products/ubar) - Dock alternative
+* [How to hide the dock](https://apple.stackexchange.com/a/298826)
 
 ```
-curl -Lks 'https://git.io/rg-ssl' | ruby
-brew info openssl
-sudo cp /usr/local/etc/openssl\@1.1/cert.pem  /opt/local/etc/openssl/cert.pem
-```
+# Hide Dock
+defaults write com.apple.dock autohide -bool true && killall Dock
+defaults write com.apple.dock autohide-delay -float 1000 && killall Dock
+defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock
 
-## Reinstall xcode
-
-```
-# Get Xcode version
-xcode-select  --version
-
-# Re-install Xcode CLI tools
-sudo rm -rf /Library/Developer/CommandLineTools
-sudo xcode-select --install
+# Restore Dock
+defaults write com.apple.dock autohide -bool false && killall Dock
+defaults delete com.apple.dock autohide-delay && killall Dock
+defaults write com.apple.dock no-bouncing -bool FALSE && killall Dock
 ```
 
 ### Disable command+h (hide window)
@@ -138,19 +124,40 @@ sudo usermod ${USER} -aG i2c
 # ~/.config/display-switch/display-switch.ini
 ```
 
-## Dock
+## Troubleshooting
 
-* [uBar](https://brawersoftware.com/products/ubar) - Dock alternative
-* [How to hide the dock](https://apple.stackexchange.com/a/298826)
+### Increase maxfiles
+
+* [Blog](https://docs.riak.com/riak/kv/latest/using/performance/open-files-limit/index.html#mac-os-x-el-capitan)
+* [Facebook Watchman](https://facebook.github.io/watchman/docs/install.html#installing-on-os-x-via-homebrew)
+* [StackOverflow](https://apple.stackexchange.com/a/366319)
 
 ```
-# Hide Dock
-defaults write com.apple.dock autohide -bool true && killall Dock
-defaults write com.apple.dock autohide-delay -float 1000 && killall Dock
-defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock
+$ echo 'ulimit -n 65536 104857' >> ~/.bashrc
 
-# Restore Dock
-defaults write com.apple.dock autohide -bool false && killall Dock
-defaults delete com.apple.dock autohide-delay && killall Dock
-defaults write com.apple.dock no-bouncing -bool FALSE && killall Dock
+$ cat <<-END >> /etc/sysctl.conf
+kern.maxfiles=10485760
+kern.maxfilesperproc=104857
+END
+```
+
+### Fix OpenSSL errors
+
+* [Bundler SSL Guide](https://bundler.io/guides/rubygems_tls_ssl_troubleshooting_guide.html#troubleshooting-certificate-errors)
+
+```
+curl -Lks 'https://git.io/rg-ssl' | ruby
+brew info openssl
+sudo cp /usr/local/etc/openssl\@1.1/cert.pem  /opt/local/etc/openssl/cert.pem
+```
+
+## Reinstall xcode
+
+```
+# Get Xcode version
+xcode-select  --version
+
+# Re-install Xcode CLI tools
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
 ```
