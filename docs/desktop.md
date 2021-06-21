@@ -88,8 +88,7 @@ $ gsettings get org.gnome.desktop.background picture-uri \
 $ gsettings get org.gnome.desktop.screensaver picture-uri \
   'file:///usr/share/backgrounds/ibm-darker-wider.png'
 
-$ grep -B1 ibm-darker-wider /usr/share/glib-2.0/schemas/1
-0_ubuntu-settings.gschema.override
+$ grep -B1 ibm-darker-wider /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override
 [org.gnome.desktop.background]
 picture-uri = 'file:///usr/share/backgrounds/ibm-darker-wider.png'
 --
