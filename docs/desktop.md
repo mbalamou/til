@@ -77,6 +77,30 @@ $ gsettings set org.gnome.desktop.session idle-delay 3600
 $ gsettings set org.gnome.desktop.screensaver lock-delay 4000
 ```
 
+### Screensaver lockscreen background
+
+* [AskUbuntu](https://askubuntu.com/a/1149151)
+
+```
+$ sudo cp ibm-darker-wider.png /usr/share/backgrounds/
+$ gsettings get org.gnome.desktop.background picture-uri \
+  'file:///usr/share/backgrounds/ibm-darker-wider.png'
+$ gsettings get org.gnome.desktop.screensaver picture-uri \
+  'file:///usr/share/backgrounds/ibm-darker-wider.png'
+
+$ grep -B1 ibm-darker-wider /usr/share/glib-2.0/schemas/1
+0_ubuntu-settings.gschema.override
+[org.gnome.desktop.background]
+picture-uri = 'file:///usr/share/backgrounds/ibm-darker-wider.png'
+--
+[org.gnome.desktop.screensaver]
+picture-uri = 'file:///usr/share/backgrounds/ibm-darker-wider.png'
+
+$ sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+$ killall gnome-screensaver
+$ gnome-screensaver &
+```
+
 ## Mouse cursor
 
 ```
