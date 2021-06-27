@@ -1,5 +1,36 @@
 # Linux
 
+## Webcam
+
+* [Arch wiki](https://wiki.archlinux.org/title/Webcam_setup)
+* [v4l2-ctl](https://manpages.ubuntu.com/manpages/xenial/man1/v4l2-ctl.1.html)
+* [udev rules example](https://wiki.archlinux.org/title/Udev#udev_rule_example)
+
+Update settings
+```
+v4l2-ctl --list-devices
+
+# The udev rule below creates a symlink from /dev/dell-ultrasharp-webcam to /dev/video0
+v4l2-ctl -d /dev/dell-ultrasharp-webcam --list-ctrls-menus
+v4l2-ctl -d /dev/dell-ultrasharp-webcam --set-ctrl backlight_compensation=1
+v4l2-ctl -d /dev/dell-ultrasharp-webcam --set-ctrl zoom_absolute=200
+```
+
+Create a udev rule to apply settings whenever the webcam is connected
+```
+# Find the udev attributes
+udevadm info --attribute-walk --path=$(udevadm info --query=path --name=/dev/video0)
+
+sudo bash -c 'cat > /etc/udev/rules.d/99-dell-ultrasharp-webcam.rules' <<-EOF
+KERNEL=="video[0-9]*", SUBSYSTEM=="video4linux", SUBSYSTEMS=="usb", ATTRS{idVendor}=="413c", ATTRS{idProduct}=="c015", ATTR{index}=="0", SYMLINK+="dell-ultrasharp-webcam" OPTIONS+="link_priority=100"
+SYMLINK=="dell-ultrasharp-webcam", ACTION=="add", RUN+="/usr/bin/v4l2-ctl -d /dev/dell-ultrasharp-webcam --set-ctrl backlight_compensation=1"
+SYMLINK=="dell-ultrasharp-webcam", ACTION=="add", RUN+="/usr/bin/v4l2-ctl -d /dev/dell-ultrasharp-webcam --set-ctrl zoom_absolute=200"
+EOF
+
+# Reload rules
+udevadm control --reload
+```
+
 ## Upgrade Ubuntu from non-LTS to LTS
 
   - `$ gksudo update-manager -d`
