@@ -123,6 +123,8 @@ gtk-font-name = DejaVu Sans 11
 
 ## xrandr
 
+* [autorandr](https://github.com/phillipberndt/autorandr)
+
 Disable external display
 ```
 xrandr --output HDMI1 --off
