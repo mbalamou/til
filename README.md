@@ -180,6 +180,8 @@ rake
     * [Testing](docs/ruby.md#testing)
     * [Package managment / Dependencies](docs/ruby.md#package-managment--dependencies)
     * [Tips and tricks](docs/ruby.md#tips-and-tricks)
+  * [Slack](docs/slack.md#slack)
+    * [Useful commands](docs/slack.md#useful-commands)
   * [SSH](docs/ssh.md#ssh)
     * [Agent forwarding](docs/ssh.md#agent-forwarding)
     * [Share connections](docs/ssh.md#share-connections)
