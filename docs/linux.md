@@ -21,14 +21,23 @@ Create a udev rule to apply settings whenever the webcam is connected
 # Find the udev attributes
 udevadm info --attribute-walk --path=$(udevadm info --query=path --name=/dev/video0)
 
+# Dell UltraSharp
 sudo bash -c 'cat > /etc/udev/rules.d/99-dell-ultrasharp-webcam.rules' <<-EOF
 KERNEL=="video[0-9]*", SUBSYSTEM=="video4linux", SUBSYSTEMS=="usb", ATTRS{idVendor}=="413c", ATTRS{idProduct}=="c015", ATTR{index}=="0", SYMLINK+="dell-ultrasharp-webcam" OPTIONS+="link_priority=100"
 SYMLINK=="dell-ultrasharp-webcam", ACTION=="add", RUN+="/usr/bin/v4l2-ctl -d /dev/dell-ultrasharp-webcam --set-ctrl backlight_compensation=1"
 SYMLINK=="dell-ultrasharp-webcam", ACTION=="add", RUN+="/usr/bin/v4l2-ctl -d /dev/dell-ultrasharp-webcam --set-ctrl zoom_absolute=200"
 EOF
 
+# Razer Kiyo
+sudo bash -c 'cat > /etc/udev/rules.d/99-dell-ultrasharp-webcam.rules' <<-EOF
+KERNEL=="video[0-9]*", SUBSYSTEM=="video4linux", SUBSYSTEMS=="usb", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="0e03", ATTR{index}=="0", SYMLINK+="razer-kiyo-webcam"
+SYMLINK=="razer-kiyo-webcam", ACTION=="add", RUN+="/usr/bin/v4l2-ctl -d /dev/razer-kiyo-webcam --set-ctrl backlight_compensation=1"
+SYMLINK=="razer-kiyo-webcam", ACTION=="add", RUN+="/usr/bin/v4l2-ctl -d /dev/razer-kiyo-webcam --set-ctrl zoom_absolute=100"
+EOF
+
 # Reload rules
 udevadm control --reload
+udevadm trigger
 ```
 
 ## Upgrade Ubuntu from non-LTS to LTS
