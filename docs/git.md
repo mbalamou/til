@@ -153,6 +153,14 @@ git revert -m 1 ${MERGE_COMMIT_SHA}
     dbr = !bash -c 'set -o pipefail && git symbolic-ref refs/remotes/origin/HEAD 2>/dev/null|cut -d / -f 4-||git remote show origin 2>/dev/null|awk \"/HEAD branch/ {print \\$NF}\"||echo main'
 ```
 
+## Set default branch
+
+[Stackoverflow](https://stackoverflow.com/a/66895556) - Allow git to set your origin/HEAD, determining what branch to use automatically
+
+```
+git remote set-head origin --auto
+```
+
 ## Github
 
 ### Collapsable section markdown
