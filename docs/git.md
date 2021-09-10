@@ -98,9 +98,9 @@ git reset origin/$(git branch --show-current) --hard
 $ git remote set-url origin git://$URL
 ```
 
-## Configuration
+## Project-specific configuration
+
 ```
-# Project-specific
 $ git config user.name "andornaut" \
     && git config user.user "andornaut" \
     && git config user.email "andornaut@users.noreply.github.com"
@@ -141,6 +141,16 @@ git push origin :refs/tags/v0.0.1
 ```
 # Revert a merge commit
 git revert -m 1 ${MERGE_COMMIT_SHA}
+```
+
+## Get default branch name
+
+* [Stackoverflow](https://stackoverflow.com/questions/28666357/git-how-to-get-default-branch)
+* [Dotfiles Git config](https://github.com/andornaut/dotfiles/blob/master/%24HOME/.config/git/config)
+
+```
+[alias]
+    dbr = !bash -c 'set -o pipefail && git symbolic-ref refs/remotes/origin/HEAD 2>/dev/null|cut -d / -f 4-||git remote show origin 2>/dev/null|awk \"/HEAD branch/ {print \\$NF}\"||echo main'
 ```
 
 ## Github
