@@ -70,6 +70,7 @@ rake
     * [Delete tag](docs/git.md#delete-tag)
     * [Undo commits](docs/git.md#undo-commits)
     * [Get default branch name](docs/git.md#get-default-branch-name)
+    * [Set default branch](docs/git.md#set-default-branch)
     * [Github](docs/git.md#github)
       * [Collapsable section markdown](docs/git.md#collapsable-section-markdown)
       * [Search](docs/git.md#search)
