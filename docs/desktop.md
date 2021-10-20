@@ -7,7 +7,8 @@
 
 ## Fan control
 
-[StackOverflow](https://askubuntu.com/questions/22108/how-to-control-fan-speed)
+* [StackOverflow](https://askubuntu.com/questions/22108/how-to-control-fan-speed)
+* [fancontrol_gui](https://github.com/Maldela/fancontrol-gui)
 
 ```
 sudo apt-get install lm-sensors fancontrol
