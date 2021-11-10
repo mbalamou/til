@@ -46,6 +46,12 @@ brew install --cask font-source-code-pro \
   font-ubuntu
 ```
 
+[Enable font smoothing](https://pezcoder.medium.com/how-i-migrated-from-iterm-to-alacritty-c50a04705f95#fa82):
+```
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
+```
+
 ## Common commands
 
 ```
