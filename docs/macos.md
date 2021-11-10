@@ -38,7 +38,7 @@ brew install \
 
 # Fonts
 brew tap homebrew/cask-fonts
-brew cask install \
+brew install --cask font-source-code-pro \
   font-droid-sans-mono-nerd-font \
   font-inconsolata \
   font-source-code-pro \
