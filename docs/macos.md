@@ -34,7 +34,8 @@ brew install \
     svn \
     watch \
     wget \
-    xclip
+    xclip \
+    vim
 
 # Fonts
 brew tap homebrew/cask-fonts
