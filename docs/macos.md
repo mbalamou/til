@@ -30,8 +30,6 @@ brew install \
     jq \
     mosh \
     nmap \
-    rxvt-unicode \
-    svn \
     watch \
     wget \
     xclip \
@@ -46,6 +44,13 @@ brew install --cask font-source-code-pro \
   font-source-sans-pro \
   font-ubuntu
 ```
+
+Install these applications:
+
+* [Hookshot](https://hookshot.app/)
+* [Karabiner Elements](https://karabiner-elements.pqrs.org/)
+* [Monosnap](https://monosnap.com/)
+* [Tuple](https://tuple.app/)
 
 [Enable font smoothing](https://pezcoder.medium.com/how-i-migrated-from-iterm-to-alacritty-c50a04705f95#fa82):
 ```
