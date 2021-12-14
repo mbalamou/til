@@ -176,7 +176,7 @@ rake
     * [TypeScript](docs/react.md#typescript)
   * [Ruby](docs/ruby.md#ruby)
     * [Installation](docs/ruby.md#installation)
-      * [macOS](docs/ruby.md#macos)
+      * [Install Ruby on macOS](docs/ruby.md#install-ruby-on-macos)
     * [IDEs](docs/ruby.md#ides)
     * [Rubymine](docs/ruby.md#rubymine)
     * [Visual Studio Code](docs/ruby.md#visual-studio-code)

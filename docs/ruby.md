@@ -6,7 +6,9 @@
 * [ruby-install](https://github.com/postmodern/ruby-install#readme)
 * [shadowenv](https://github.com/Shopify/shadowenv)
 
-### macOS
+### Install Ruby on macOS
+
+* [Enable auto-switching](https://github.com/postmodern/chruby#auto-switching)
 
 ```
 brew install ruby-install

@@ -2,6 +2,9 @@
 
 ## Initial setup
 
+* [Install NVM on macOS](./javascript.md#install-nvm-on-macos)
+* [Install Ruby on macOS](./ruby.md#install-ruby-on-macos)
+
 ```
 # n.b. svn is needed to install the font-source-code-pro cask
 brew install \
@@ -11,6 +14,7 @@ brew install \
     jq \
     nmap \
     svn \
+    tmux \
     watch \
     wget \
     vim
