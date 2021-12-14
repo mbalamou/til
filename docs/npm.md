@@ -1,5 +1,7 @@
 # NPM
 
+* [JavaScript](./javascript.md)
+
 ## Linking
 
 * [npm config - prefix](https://docs.npmjs.com/misc/config#prefix)
