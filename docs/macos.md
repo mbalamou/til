@@ -21,33 +21,48 @@ Meta keys:
 | Control Command q | Lock screen |
 | / | [Go to a directory](https://support.apple.com/en-ca/guide/mac-help/mchlp1236/mac) when focussed on a Finder window |
 
+
+Rebind these shorcuts in System Preferences > Keyboard > Shortcuts -> Mission Control:
+
+Mission Control: Mission Control: F3
+Mission Control: Move left a space: ⌘	←
+Mission Control: Move right a space: ⌘	→
+
 ## Initial setup
 
 ```
+# n.b. svn is needed to install the font-source-code-pro cask
 brew install \
     bash \
     coreutils \
+    curl \
     jq \
-    mosh \
     nmap \
+    svn \
     watch \
     wget \
-    xclip \
     vim
 
 # Fonts
 brew tap homebrew/cask-fonts
-brew install --cask font-source-code-pro \
+brew install \
+  --cask font-source-code-pro \
   font-droid-sans-mono-nerd-font \
   font-inconsolata \
   font-source-code-pro \
   font-source-sans-pro \
   font-ubuntu
+
+brew install --cask --no-quarantine alacritty
+
+# Change shell to Bash
+echo '/opt/homebrew/bin/bash' | sudo tee -a /etc/shells
+chsh -s $(which bash)
 ```
 
 Install these applications:
 
-* [Hookshot](https://hookshot.app/)
+* [Hookshot](https://hookshot.app/) or [Rectangle](https://rectangleapp.com/)
 * [Karabiner Elements](https://karabiner-elements.pqrs.org/)
 * [Monosnap](https://monosnap.com/)
 * [Tuple](https://tuple.app/)

@@ -6,6 +6,15 @@
 * [ruby-install](https://github.com/postmodern/ruby-install#readme)
 * [shadowenv](https://github.com/Shopify/shadowenv)
 
+### macOS
+
+```
+brew install ruby-install
+brew install chruby
+ruby-install ruby 2.7.2
+chruby ruby-2.7.2
+```
+
 ## IDEs
 
 ## Rubymine
