@@ -7,18 +7,18 @@
 
 ```
 # Reload unit files
-$ systemctl daemon-reload
+systemctl daemon-reload
 
 # Start service on boot
-$ systemctl enable $service
+systemctl enable $service
 
 # Show units
-$ systemctl list-units
-$ systemctl list-units --state=failed
-$ systemctl list-units --type=mount
+systemctl list-units
+systemctl list-units --state=failed
+systemctl list-units --type=mount
 
 # List dependencies
-$ systemctl list-dependencies $service
+systemctl list-dependencies $service
 
 # Delete all but 1GB of logs
 journalctl --vacuum-size=1G
@@ -28,7 +28,7 @@ journalctl --vacuum-size=1G
 
 ```
 # Tail logs for a service
-$ journalctl -f -u $sevice
+journalctl -f -u $sevice
 
 # View logs from the previous boot until the last reboot
 journalctl --boot=-1
@@ -54,7 +54,7 @@ User units cannot depend on system units.
 
 ```
 # Commands are similar to the system-wide systemctl, except that they do not require sudo.
-$ systemctl --user daemon-reload
+systemctl --user daemon-reload
 ```
 
 ### Lingering
@@ -66,5 +66,5 @@ $ systemctl --user daemon-reload
 > Enabling lingering allows the user to run processes without being logged in, for example to allow screen to persist after the user logs out, even if the session scope is terminated. In the default configuration, users can enable lingering for themselves:
 
 ```
-$ loginctl enable-linger ${USER}
+loginctl enable-linger ${USER}
 ```
