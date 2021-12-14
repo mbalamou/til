@@ -19,6 +19,9 @@ $ systemctl list-units --type=mount
 
 # List dependencies
 $ systemctl list-dependencies $service
+
+# Delete all but 1GB of logs
+journalctl --vacuum-size=1G
 ```
 
 ## journalctl commands
