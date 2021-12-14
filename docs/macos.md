@@ -21,12 +21,11 @@ Meta keys:
 | Control Command q | Lock screen |
 | / | [Go to a directory](https://support.apple.com/en-ca/guide/mac-help/mchlp1236/mac) when focussed on a Finder window |
 
-
 Rebind these shorcuts in System Preferences > Keyboard > Shortcuts -> Mission Control:
 
 Mission Control: Mission Control: F3
-Mission Control: Move left a space: ⌘	←
-Mission Control: Move right a space: ⌘	→
+Mission Control: Move left a space: ⌘ ←
+Mission Control: Move right a space: ⌘ →
 
 ## Initial setup
 
@@ -71,13 +70,6 @@ Install these applications:
 ```
 defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
-```
-
-## Common commands
-
-```
-brew upgrade
-port -d selfupdate
 ```
 
 ## Customizations

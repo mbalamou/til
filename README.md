@@ -122,7 +122,6 @@ rake
   * [macOS](docs/macos.md#macos)
     * [Keyboard Shortcuts](docs/macos.md#keyboard-shortcuts)
     * [Initial setup](docs/macos.md#initial-setup)
-    * [Common commands](docs/macos.md#common-commands)
     * [Customizations](docs/macos.md#customizations)
       * [Reduce menu (top bar) transparency](docs/macos.md#reduce-menu-top-bar-transparency)
       * [Dock](docs/macos.md#dock)
