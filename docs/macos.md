@@ -1,32 +1,5 @@
 # macOS
 
-## Keyboard Shortcuts
-
-[All shortcuts](https://support.apple.com/en-ca/HT201236)
-
-Meta keys:
-
-- Command ⌘
-- Shift ⇧
-- Option (Alt) ⌥
-- Control (Ctrl) ⌃
-- Caps Lock ⇪
-- Fn
-
-| Key combination | Description |
-| --- | --- |
-| Control Command Space | Open [Emoji Viewer](https://support.apple.com/en-ca/guide/mac-help/mchlp1560/mac) |
-| Command Shift . | [Show hidden files](https://osxdaily.com/2009/02/25/show-hidden-files-in-os-x/) |
-| Command n | New window |
-| Control Command q | Lock screen |
-| / | [Go to a directory](https://support.apple.com/en-ca/guide/mac-help/mchlp1236/mac) when focussed on a Finder window |
-
-Rebind these shorcuts in System Preferences > Keyboard > Shortcuts -> Mission Control:
-
-Mission Control: Mission Control: F3
-Mission Control: Move left a space: ⌘ ←
-Mission Control: Move right a space: ⌘ →
-
 ## Initial setup
 
 ```
@@ -71,6 +44,35 @@ Install these applications:
 defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
 ```
+
+## Keyboard Shortcuts
+
+[All shortcuts](https://support.apple.com/en-ca/HT201236)
+
+Meta keys:
+
+- Command ⌘
+- Shift ⇧
+- Option (Alt) ⌥
+- Control (Ctrl) ⌃
+- Caps Lock ⇪
+- Fn
+
+| Key combination | Description |
+| --- | --- |
+| Control Command Space | Open [Emoji Viewer](https://support.apple.com/en-ca/guide/mac-help/mchlp1560/mac) |
+| Command Shift . | [Show hidden files](https://osxdaily.com/2009/02/25/show-hidden-files-in-os-x/) |
+| Command n | New window |
+| Control Command q | Lock screen |
+| / | [Go to a directory](https://support.apple.com/en-ca/guide/mac-help/mchlp1236/mac) when focussed on a Finder window |
+
+Rebind these shorcuts in System Preferences > Keyboard > Shortcuts -> Mission Control:
+
+| Key combination | Description |
+| --- | --- |
+| F3 | Mission Control |
+| ⌘ ← | Mission Control: Move left a space |
+| ⌘ → | Mission Control: Move right a space |
 
 ## Customizations
 
