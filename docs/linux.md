@@ -1,5 +1,35 @@
 # Linux
 
+## Applications
+
+Command | Description
+--- | ---
+[gnome-disks](https://gitlab.gnome.org/GNOME/gnome-disk-utility)|Tool to manage storage devices
+[heroic](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher)|"Epic Games Store" launcher
+[lutris](https://lutris.net/)|Wine, Steam, etc game launcher
+[obs](https://obsproject.com/)|Tool to record video and perform live streaming
+[pcmanfm](https://sourceforge.net/projects/pcmanfm/)|File manager
+[retroarch](https://www.retroarch.com/)|ROM game and emulator launcher
+[seahorse](https://wiki.gnome.org/Apps/Seahorse) | Tool to manage the Gnome keyring
+[solaar](https://pwr-solaar.github.io/Solaar/)|Device Manager for Logitech Unifying Receivers and Devices.
+[usb-creator-gtk](https://launchpad.net/ubuntu/+source/usb-creator)|Tool to write ISO files to USB storage devices
+
+### Monitoring and statistics applications
+
+Command | Description
+--- | ---
+atop | AT Computing's System & Process Monitor
+htop | ncurses-based process viewer for Linux
+iostat | CPU and input/output statistics for devices and partitions
+lsof | Lists on its standard output file information about files opened by processes
+mtr | Combines  the functionality of the traceroute and ping programs in a single network diagnostic tool
+nethogs | Net top tool grouping bandwidth per process
+netstat | Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+pidstat | Monitor individual tasks currently being managed by the Linux kernel
+powertop | Power consumption and power management diagnosis tool
+sensors | Print temperature sensors information
+vmstat | Report virtual memory statistics
+
 ## Webcam
 
 * [Arch wiki](https://wiki.archlinux.org/title/Webcam_setup)
@@ -101,22 +131,6 @@ unRaw      (take control of keyboard back from X),
   Unmount  (remount all filesystems read-only),
 reBoot.
 ```
-
-## Monitoring and statistics
-
-Command | Description
---- | ---
-atop | AT Computing's System & Process Monitor
-htop | ncurses-based process viewer for Linux
-iostat | CPU and input/output statistics for devices and partitions
-lsof | Lists on its standard output file information about files opened by processes
-mtr | Combines  the functionality of the traceroute and ping programs in a single network diagnostic tool
-nethogs | Net top tool grouping bandwidth per process
-netstat | Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
-pidstat | Monitor individual tasks currently being managed by the Linux kernel
-powertop | Power consumption and power management diagnosis tool
-sensors | Print temperature sensors information
-vmstat | Report virtual memory statistics
 
 ## Mount a network share in fstab
 
