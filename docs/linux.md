@@ -34,7 +34,7 @@ vmstat | Report virtual memory statistics
 ## Ubuntu packages to uninstall
 
 ```
-apt purge evolution* whoopsie
+sudo apt purge evolution* whoopsie*
 ```
 
 ## Webcam
