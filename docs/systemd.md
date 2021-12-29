@@ -22,6 +22,9 @@ systemctl list-units --type=mount
 # List dependencies
 systemctl list-dependencies $service
 
+# List targets
+systemctl list-units --type target
+
 # Show tree of critical path targets
 systemd-analyze critical-chain
 ```
