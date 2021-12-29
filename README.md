@@ -122,6 +122,8 @@ rake
     * [System stability](docs/linux.md#system-stability)
     * [Set default soundcard to USB sound device](docs/linux.md#set-default-soundcard-to-usb-sound-device)
     * [Application basenames](docs/linux.md#application-basenames)
+    * [Debugging and troubleshooting](docs/linux.md#debugging-and-troubleshooting)
+      * [apt update 404](docs/linux.md#apt-update-404)
   * [macOS](docs/macos.md#macos)
     * [Initial setup](docs/macos.md#initial-setup)
     * [Keyboard Shortcuts](docs/macos.md#keyboard-shortcuts)
