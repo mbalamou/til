@@ -256,3 +256,7 @@ Basename | Name (or Generic Name)
 --- | ---
 gnome-control-center | System Settings
 gnome-disks | Disk Utility
+
+## Debugging and troubleshooting
+
+* [LiveCdRecovery](https://help.ubuntu.com/community/LiveCdRecovery) - Chroot an Ubuntu ISO on a USB drive
