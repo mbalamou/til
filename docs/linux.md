@@ -260,3 +260,13 @@ gnome-disks | Disk Utility
 ## Debugging and troubleshooting
 
 * [LiveCdRecovery](https://help.ubuntu.com/community/LiveCdRecovery) - Chroot an Ubuntu ISO on a USB drive
+
+### apt update 404
+
+* [StackOverflow](https://askubuntu.com/questions/549777/getting-404-not-found-errors-when-doing-sudo-apt-get-update)
+
+This error occurs when running `apt update` on an unsupported version of Ubuntu.
+
+```
+sudo sed -i -e 's/\([a-z]*.\?\)\?archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+```
