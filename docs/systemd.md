@@ -24,9 +24,6 @@ systemctl list-dependencies $service
 
 # Show tree of critical path targets
 systemd-analyze critical-chain
-
-# Delete all but 1GB of logs
-journalctl --vacuum-size=1G
 ```
 
 ## journalctl commands
@@ -35,8 +32,17 @@ journalctl --vacuum-size=1G
 # Tail logs for a service
 journalctl -f -u $sevice
 
+# View last 50 logs
+journalctl -n 50
+
+# View logs since last boot
+journalctl -b
+
 # View logs from the previous boot until the last reboot
 journalctl --boot=-1
+
+# Delete all but 1GB of logs
+journalctl --vacuum-size=1G
 ```
 
 ## User units
@@ -58,8 +64,8 @@ The default target is "default.target"
 
 User units cannot depend on system units.
 
+User commands are similar to the system-wide systemctl, except that they do not require sudo, eg.:
 ```
-# Commands are similar to the system-wide systemctl, except that they do not require sudo.
 systemctl --user daemon-reload
 ```
 
