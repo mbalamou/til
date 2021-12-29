@@ -30,6 +30,12 @@ powertop | Power consumption and power management diagnosis tool
 sensors | Print temperature sensors information
 vmstat | Report virtual memory statistics
 
+## Ubuntu packages to uninstall
+
+```
+apt remove --purge evolution*
+```
+
 ## Webcam
 
 * [Arch wiki](https://wiki.archlinux.org/title/Webcam_setup)

@@ -1,5 +1,7 @@
 # systemd
 
+* [Debug unit cycles](https://unix.stackexchange.com/questions/193714/generic-methodology-to-debug-ordering-cycles-in-systemd)
+
 ## systemctl commands
 
 [man systemd](https://www.freedesktop.org/software/systemd/man/systemd.html)
@@ -20,6 +22,9 @@ systemctl list-units --type=mount
 # List dependencies
 systemctl list-dependencies $service
 
+# Show tree of critical path targets
+systemd-analyze critical-chain
+
 # Delete all but 1GB of logs
 journalctl --vacuum-size=1G
 ```
@@ -33,6 +38,7 @@ journalctl -f -u $sevice
 # View logs from the previous boot until the last reboot
 journalctl --boot=-1
 ```
+
 ## User units
 
 Add unit files to `~/.config/systemd/user/`. eg

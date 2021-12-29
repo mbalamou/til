@@ -101,6 +101,7 @@ rake
   * [Linux](docs/linux.md#linux)
     * [Applications](docs/linux.md#applications)
       * [Monitoring and statistics applications](docs/linux.md#monitoring-and-statistics-applications)
+    * [Ubuntu packages to uninstall](docs/linux.md#ubuntu-packages-to-uninstall)
     * [Webcam](docs/linux.md#webcam)
     * [Upgrade Ubuntu from non-LTS to LTS](docs/linux.md#upgrade-ubuntu-from-non-lts-to-lts)
     * [Disable release upgrade notifications](docs/linux.md#disable-release-upgrade-notifications)
