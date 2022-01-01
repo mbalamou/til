@@ -11,7 +11,13 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 
 ```
 apt install cargo rustc
+
+# Use the binary template by default: --bin
 cargo new ${project_name}
+
+# Or use the library template: --lib
+# cargo new --lib ${library_project_name}
+
 cd ${project_name}
 vim Cargo.toml
 ```
@@ -29,6 +35,7 @@ Name | Description
 --- | ---
 [clap](https://github.com/clap-rs/clap)|Parse command line arguments
 [chrono](https://github.com/chronotope/chrono)|Date and time library
+[chrono-tz](https://github.com/chronotope/chrono-tz)|Timezone library
 [rand](https://github.com/rust-random/rand)|Generate random numbers
 [Serde JSON](https://github.com/serde-rs/json)|Serialize and deserialize JSON
 [tempfile](https://github.com/Stebalien/tempfile)|Create temporary files or directories
