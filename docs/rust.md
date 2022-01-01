@@ -1,7 +1,9 @@
 # Rust
 
-* [The Rust Programming Language](https://doc.rust-lang.org/book/) (book)
 * [Crates.io](https://crates.io) - Public package repository
+* [Docs.rs](https://docs.rs/) - Documentation host for crates
+* [Official site](https://www.rust-lang.org/)
+* [The Rust Programming Language](https://doc.rust-lang.org/book/) (book)
 
 Read a local copy of "The Rust Programming Language" book in a web browser with: `rustup doc --book`
 
@@ -10,9 +12,11 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 ```
 apt install cargo rustc
 cargo new ${project_name}
+cd ${project_name}
+vim Cargo.toml
 ```
 
-## Updating Rust
+## Managing Rust versions
 
 ```
 # Update Rust on the stable channel
@@ -23,5 +27,10 @@ rustup update stable
 
 Name | Description
 --- | ---
-[clap](https://github.com/clap-rs/clap)|Command line argument parser
-[tui](https://crates.io/crates/tui)|A library to build rich terminal user interfaces
+[clap](https://github.com/clap-rs/clap)|Parse command line arguments
+[chrono](https://github.com/chronotope/chrono)|Date and time library
+[rand](https://github.com/rust-random/rand)|Generate random numbers
+[Serde JSON](https://github.com/serde-rs/json)|Serialize and deserialize JSON
+[tempfile](https://github.com/Stebalien/tempfile)|Create temporary files or directories
+[tui](https://crates.io/crates/tui)|Build rich terminal user interfaces
+[uuid](https://github.com/uuid-rs/uuid)|Generate and parse UUIDs

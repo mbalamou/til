@@ -158,7 +158,7 @@ rake
     * [Tips and tricks](docs/ruby.md#tips-and-tricks)
   * [Rust](docs/rust.md#rust)
     * [Getting started](docs/rust.md#getting-started)
-    * [Updating Rust](docs/rust.md#updating-rust)
+    * [Managing Rust versions](docs/rust.md#managing-rust-versions)
     * [Frameworks, libraries and tools](docs/rust.md#frameworks-libraries-and-tools)
   * [Slack](docs/slack.md#slack)
     * [Useful commands](docs/slack.md#useful-commands)
