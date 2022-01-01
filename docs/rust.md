@@ -23,4 +23,4 @@ rustup update stable
 
 Name | Description
 --- | ---
-* [tui](https://crates.io/crates/tui)|A library to build rich terminal user interfaces or dashboards
+[tui](https://crates.io/crates/tui)|A library to build rich terminal user interfaces or dashboards
