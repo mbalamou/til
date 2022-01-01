@@ -114,7 +114,7 @@ ibus-daemon -rd
 sudo apt autoremove && sudo apt clean
 ```
 
-# Printing
+## Printing
 
 * [CUPS - localhost:631](http://localhost:631)
 

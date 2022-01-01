@@ -180,7 +180,7 @@ rake
     * [Disable release upgrade notifications](docs/ubuntu.md#disable-release-upgrade-notifications)
     * [Disable language switcher](docs/ubuntu.md#disable-language-switcher)
     * [Free up disk-space](docs/ubuntu.md#free-up-disk-space)
-  * [Printing](docs/ubuntu.md#printing)
+    * [Printing](docs/ubuntu.md#printing)
     * [Magic SysRq Keys](docs/ubuntu.md#magic-sysrq-keys)
     * [Mount a network share in fstab](docs/ubuntu.md#mount-a-network-share-in-fstab)
     * [Preserve $PATH when using sudo](docs/ubuntu.md#preserve-path-when-using-sudo)
