@@ -23,4 +23,5 @@ rustup update stable
 
 Name | Description
 --- | ---
-[tui](https://crates.io/crates/tui)|A library to build rich terminal user interfaces or dashboards
+[clap](https://github.com/clap-rs/clap)|Command line argument parser
+[tui](https://crates.io/crates/tui)|A library to build rich terminal user interfaces
