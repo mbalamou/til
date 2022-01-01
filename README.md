@@ -160,6 +160,7 @@ rake
     * [Getting started](docs/rust.md#getting-started)
     * [Managing Rust versions](docs/rust.md#managing-rust-versions)
     * [Frameworks, libraries and tools](docs/rust.md#frameworks-libraries-and-tools)
+    * [Debugging](docs/rust.md#debugging)
   * [Slack](docs/slack.md#slack)
     * [Useful commands](docs/slack.md#useful-commands)
   * [SSH](docs/ssh.md#ssh)

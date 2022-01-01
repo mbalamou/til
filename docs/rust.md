@@ -41,3 +41,7 @@ Name | Description
 [tempfile](https://github.com/Stebalien/tempfile)|Create temporary files or directories
 [tui](https://crates.io/crates/tui)|Build rich terminal user interfaces
 [uuid](https://github.com/uuid-rs/uuid)|Generate and parse UUIDs
+
+## Debugging
+
+* [Debugging with GDB](https://blog.logrocket.com/debugging-rust-apps-with-gdb/)
