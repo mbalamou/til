@@ -4,7 +4,7 @@
 * [Systemd](./systemd.md)
 * [Xorg](./xorg.md)
 
-## Applications
+## Applications and packages
 
 Command | Description
 --- | ---
@@ -48,18 +48,26 @@ $ grep -li music /usr/share/applications/*.desktop
 /usr/share/applications/spotify.desktop
 ```
 
-## Ubuntu packages to uninstall
-
-```
-sudo apt purge evolution* whoopsie*
-```
-
-## Search for Ubuntu package by filename
+### Search for Ubuntu packages by filename
 
 ```
 sudo apt-get install apt-file
 apt-file update
 apt-file search ${pattern}
+```
+
+### Ubuntu packages to uninstall
+
+```
+sudo apt purge evolution* whoopsie*
+```
+
+### Free up disk-space
+
+* [Ask Ubuntu](https://askubuntu.com/a/984800)
+
+```
+sudo apt autoremove && sudo apt clean
 ```
 
 ## Upgrade Ubuntu from non-LTS to LTS
@@ -104,23 +112,6 @@ dconf write /org/gnome/settings-daemon/plugins/keyboard/active false
 
 # Restart (replace) ibus-daemon
 ibus-daemon -rd
-```
-
-## Free up disk-space
-
-* [Ask Ubuntu](https://askubuntu.com/a/984800)
-
-```
-sudo apt autoremove && sudo apt clean
-```
-
-## Printing
-
-* [CUPS - localhost:631](http://localhost:631)
-
-```
-# Gnome printer settings GUI
-$ system-config-printer
 ```
 
 ## Magic SysRq Keys

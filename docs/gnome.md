@@ -55,3 +55,12 @@ gtk-font-name = DejaVu Sans 11
 - [notifyosdconfig](https://github.com/amandeepg/notifyosdconfig)
 - [notify-osd ppa](https://launchpad.net/~leolik/+archive/ubuntu/leolik)
 - [Howto](http://www.webupd8.org/2016/05/customize-notifyosd-notification.html)
+
+## Printing
+
+* [CUPS - localhost:631](http://localhost:631)
+
+```
+# Gnome printer settings GUI
+system-config-printer
+```
