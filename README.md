@@ -155,6 +155,8 @@ rake
     * [Testing](docs/ruby.md#testing)
     * [Package managment / Dependencies](docs/ruby.md#package-managment--dependencies)
     * [Tips and tricks](docs/ruby.md#tips-and-tricks)
+  * [Rust](docs/rust.md#rust)
+    * [Getting started](docs/rust.md#getting-started)
   * [Slack](docs/slack.md#slack)
     * [Useful commands](docs/slack.md#useful-commands)
   * [SSH](docs/ssh.md#ssh)
