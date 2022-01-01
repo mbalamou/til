@@ -19,7 +19,7 @@ git push --set-upstream origin master
 ## Show commit log with branches and tags
 
 ```
-$ git log --graph --all --decorate
+git log --graph --all --decorate
 ```
 
 ## Create a patch
@@ -43,10 +43,10 @@ git checkout --detach --quiet HEAD && git fetch origin master:master && git chec
 
 ## Clean-up local branches
 ```
-$ git branch --merged
-$ git branch -d merged-branch-name
-$ git branch --no-merged
-$ git branch -D un-merged-branch-name
+git branch --merged
+git branch -d merged-branch-name
+git branch --no-merged
+git branch -D un-merged-branch-name
 ```
 
 ## Prune tracking branches
@@ -67,7 +67,7 @@ git fetch -p
 
 ## List merged branches on origin
 ```
-$ for branch in `git branch -r --merged | grep -v HEAD`; do \
+for branch in `git branch -r --merged | grep -v HEAD`; do \
 	echo -e `git show --format="%ci %cr %an" $branch | head -n 1` \\t$branch; \
 done | sort -r
 ```
@@ -79,9 +79,9 @@ git log -p -2
 
 ## Squash all but first commit
 ```
-$ git rebase -i $(git rev-list --max-parents=0 HEAD)
+git rebase -i $(git rev-list --max-parents=0 HEAD)
 # Change all but the first "pick" to "squash"
-$ git push --force
+git push --force
 
 # Alternatively:
 git rebase -i --root
@@ -95,13 +95,13 @@ git reset origin/$(git branch --show-current) --hard
 
 ## Change origin URL
 ```
-$ git remote set-url origin git://$URL
+git remote set-url origin git://$URL
 ```
 
 ## Project-specific configuration
 
 ```
-$ git config user.name "andornaut" \
+git config user.name "andornaut" \
     && git config user.user "andornaut" \
     && git config user.email "andornaut@users.noreply.github.com"
 ```

@@ -1,5 +1,7 @@
 # Ruby
 
+* [Rails](./rails.md)
+
 ## Installation
 
 * [chruby](https://github.com/postmodern/chruby)

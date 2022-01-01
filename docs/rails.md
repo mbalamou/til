@@ -1,5 +1,7 @@
 # Rails
 
+* [Ruby](./ruby.md)
+
 ## Common commands
 
 ```

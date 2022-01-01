@@ -2,6 +2,15 @@
 
 * [JavaScript](./javascript.md)
 
+## Install Node and NPM using NVM
+
+```
+nvm install v16
+nvm alias stable v16
+nvm alias default stable
+nvm use default
+```
+
 ## Linking
 
 * [npm config - prefix](https://docs.npmjs.com/misc/config#prefix)
