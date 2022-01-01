@@ -18,3 +18,9 @@ cargo new ${project_name}
 # Update Rust on the stable channel
 rustup update stable
 ```
+
+## Frameworks, libraries and tools
+
+Name | Description
+--- | ---
+* [tui](https://crates.io/crates/tui)|A library to build rich terminal user interfaces or dashboards
