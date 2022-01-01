@@ -1,4 +1,4 @@
-# apache
+# Apache
 
 ## Describe virtualhost configuration
 ```

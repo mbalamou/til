@@ -1,4 +1,4 @@
-# iterm2
+# iTerm2
 
 ## Copy / Paste
 
@@ -28,5 +28,5 @@
 
 Prompt to close iterm2 if a process is running:
 
-1. iterm.app > Preferences > Profile > Session 
+1. iterm.app > Preferences > Profile > Session
 1. In the "Prompt before closing?" option, select:  **If there are jobs besides**
