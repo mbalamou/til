@@ -31,7 +31,7 @@ rustup update stable
 
 ## Cargo
 
-* [Choosing features](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html#choosing-features)
+* [Specifying features](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
 
 ## Frameworks, libraries and tools
 
