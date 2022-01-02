@@ -6,6 +6,8 @@
 * [Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
 * [Forum](https://users.rust-lang.org/)
 * [Official site](https://www.rust-lang.org/)
+* [Reddit /r/rust](https://www.reddit.com/r/rust)
+* [`##rust` @ irc.libera.chat](https://web.libera.chat/?chan=##rust) - IRC channel
 * [The Rust Programming Language](https://doc.rust-lang.org/book/) (book)
 
 Read a local copy of "The Rust Programming Language" book in a web browser with: `rustup doc --book`
