@@ -5,7 +5,7 @@
 * [Docs.rs](https://docs.rs/) - Documentation host for crates
 * [Documentation](https://doc.rust-lang.org/) - Official documentation
 * [Documentation > Editions](https://doc.rust-lang.org/edition-guide/editions/index.html)
-* [Documentation > Standard Libary](https://doc.rust-lang.org/std/index.html)
+* [Documentation > Standard Library](https://doc.rust-lang.org/std/index.html)
 * [Documentation > Test](https://doc.rust-lang.org/test/index.html)
 * [Forum](https://users.rust-lang.org/) - Official forum
 * [Official site](https://www.rust-lang.org/)
