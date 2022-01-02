@@ -13,13 +13,13 @@ Command|Description
 ---|---
 `bind [-n\|-r]`|Bind a keyboard shortcut [without prefix\|repeatable]
 `unbind [shortcut]`|Unbind a keyboard shortcut
-`kill-[pane|server|session|window]`|Close
+`kill-[pane\|server\|session\|window]`|Close
 `movew -r`|Re-number all windows
 `new-window`|[Create](https://github.com/tmux/tmux/wiki/Getting-Started#creating-new-windows) and switch to a new window
 `rename-window -n $name`|Rename current window
-`set-option [-p|-w|-s|-g]`|Set a [pane|window|server] option, otherwise a session option. If -g is given, the global session or window option is set. tmux will infer the type from the option name, assuming -w for pane options. (alias: `set`)
+`set-option [-p\|-w\|-s\|-g]`|Set a [pane|window|server] option, otherwise a session option. If -g is given, the global session or window option is set. tmux will infer the type from the option name, assuming -w for pane options. (alias: `set`)
 `set-option -u`|Unset a non-global option to apply the global option (alias: `set -u`)
-`show -s/-g/-w`|[Display options](https://superuser.com/a/759156)
+`show [-s\|-g\|-w]`|[Display options](https://superuser.com/a/759156)
 `split-window`|[Split](https://github.com/tmux/tmux/wiki/Getting-Started#splitting-the-window) the current window
 
 ## Keyboard shortcuts
@@ -39,10 +39,10 @@ Shortcut|Description
 `C-b p`|Switch to the previous window
 `C-b n`|Switch to the next window
 `C-b q`|Print pane numbers
-`C-b Up|Down|Left|Right`|Change pane focus
-`C-b C-[Up|Down|Left|Right]`|Resize current pane
-`C-b Alt-1`|`select-layout even-vertical
-`C-b Alt-2`|`select-layout even-vertical
+`C-b Up\|Down\|Left\|Right`|Change pane focus
+`C-b C-[Up\|Down\|Left\|Right]`|Resize current pane
+`C-b Alt-1`|select-layout even-vertical
+`C-b Alt-2`|select-layout even-vertical
 `C-b %`|Split pane vertically
 `C-b "`|Split pane horizontally
 `C-b x`|Close the current pane
