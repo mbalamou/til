@@ -18,6 +18,9 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 ```
 apt install cargo rustc
 
+# Update Rust on the stable channel
+rustup update stable
+
 # Use the binary template by default: --bin
 cargo new ${project_name}
 
@@ -26,13 +29,6 @@ cargo new ${project_name}
 
 cd ${project_name}
 vim Cargo.toml
-```
-
-## Managing Rust versions
-
-```
-# Update Rust on the stable channel
-rustup update stable
 ```
 
 ## Cargo

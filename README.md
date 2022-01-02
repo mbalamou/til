@@ -158,7 +158,6 @@ rake
     * [Tips and tricks](docs/ruby.md#tips-and-tricks)
   * [Rust](docs/rust.md#rust)
     * [Getting started](docs/rust.md#getting-started)
-    * [Managing Rust versions](docs/rust.md#managing-rust-versions)
     * [Cargo](docs/rust.md#cargo)
     * [Frameworks, libraries and tools](docs/rust.md#frameworks-libraries-and-tools)
     * [Debugging](docs/rust.md#debugging)
