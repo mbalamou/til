@@ -7,28 +7,27 @@
 * [Keybinding docs](https://code.visualstudio.com/docs/getstarted/keybindings)
 * Keyboard shortcuts for [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) or [macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
-### macOS
-
-Shortcut|Description
----|---
-⌘P|Quick Open, Go to File
-⇧⌘P|Show Command Palette
-⌃`|Show integrated terminal
-⌘K ⌘C|Add line comment
-⌘K ⌘U|Remove line comment
-⇧⌥A|Toggle block comment
-⇧⌘O|Go to Symbol
-⇧⌘E|Show Explorer / Toggle focus
-⇧⌘F|Show Search
-⇧⌘U|Show Output panel
-⇧⌘H|Replace in files
-⇧⌘V|Open Markdown preview
-F9|Toggle breakpoint
-F5|Start/Continue
-F1|Step into
-⇧F11|Step out
-F10|Step over
-⇧F5|Stop
+Linux|macOS|Description
+---|---|---
+|⌘P|Quick Open, Go to File
+|⇧⌘P|Show Command Palette
+⌃`|⌃`|Show integrated terminal
+|⌘K ⌘C|Add line comment
+|⌘K ⌘U|Remove line comment
+|⇧⌥A|Toggle block comment
+|⇧⌘O|Go to Symbol
+|⇧⌘E|Show Explorer / Toggle focus
+|⇧⌘F|Show Search
+|⇧⌘U|Show Output panel
+Ctrl+Shift+Y||Show console
+|⇧⌘H|Replace in files
+|⇧⌘V|Open Markdown preview
+F9|F9|Toggle breakpoint
+F5|F5|Start/Continue
+F1|F1|Step into
+Shift+F11|⇧F11|Step out
+F10|F10|Step over
+Shift+F5|⇧F5|Stop
 
 ## Add CLI executable on macOS
 

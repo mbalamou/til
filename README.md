@@ -203,7 +203,6 @@ rake
     * [Key combinations](docs/vim.md#key-combinations)
   * [Visual Studio Code](docs/vscode.md#visual-studio-code)
     * [Keyboard shortcuts](docs/vscode.md#keyboard-shortcuts)
-      * [macOS](docs/vscode.md#macos)
     * [Add CLI executable on macOS](docs/vscode.md#add-cli-executable-on-macos)
     * [Extensions](docs/vscode.md#extensions)
   * [wget](docs/wget.md#wget)
