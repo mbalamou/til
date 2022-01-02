@@ -29,6 +29,10 @@ vim Cargo.toml
 rustup update stable
 ```
 
+## Cargo
+
+* [Choosing features](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html#choosing-features)
+
 ## Frameworks, libraries and tools
 
 Name | Description
@@ -36,10 +40,11 @@ Name | Description
 [clap](https://github.com/clap-rs/clap)|Parse command line arguments
 [chrono](https://github.com/chronotope/chrono)|Date and time library
 [chrono-tz](https://github.com/chronotope/chrono-tz)|Timezone library
+[cursive](https://github.com/gyscos/Cursive)|Text User Interface (TUI) library. ([Comparison to tui](https://github.com/gyscos/cursive/wiki/Cursive-vs-tui%E2%80%90rs)).
 [rand](https://github.com/rust-random/rand)|Generate random numbers
 [Serde JSON](https://github.com/serde-rs/json)|Serialize and deserialize JSON
 [tempfile](https://github.com/Stebalien/tempfile)|Create temporary files or directories
-[tui](https://crates.io/crates/tui)|Build rich terminal user interfaces
+[tui](https://crates.io/crates/tui)|Text User Interface (TUI) library. ([Comparison to cursive](https://github.com/gyscos/cursive/wiki/Cursive-vs-tui%E2%80%90rs)).
 [uuid](https://github.com/uuid-rs/uuid)|Generate and parse UUIDs
 
 ## Debugging
