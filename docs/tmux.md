@@ -11,7 +11,7 @@
 
 Command|Description
 ---|---
-`bind [-n\|-r]`|Bind a keyboard shortcut [without prefix|repeatable]
+`bind [-n\|-r]`|Bind a keyboard shortcut [without prefix\|repeatable]
 `unbind [shortcut]`|Unbind a keyboard shortcut
 `kill-[pane|server|session|window]`|Close
 `movew -r`|Re-number all windows
