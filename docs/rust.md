@@ -1,14 +1,15 @@
 # Rust
 
 * [Crates.io](https://crates.io) - Public package repository
-* [Discord](https://discord.gg/rust-lang)
+* [Discord](https://discord.gg/rust-lang) - Official discord server
 * [Docs.rs](https://docs.rs/) - Documentation host for crates
 * [Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
-* [Forum](https://users.rust-lang.org/)
+* [Forum](https://users.rust-lang.org/) - Official forum
 * [Official site](https://www.rust-lang.org/)
 * [Reddit /r/rust](https://www.reddit.com/r/rust)
 * [`##rust` @ irc.libera.chat](https://web.libera.chat/?chan=##rust) - IRC channel
-* [The Rust Programming Language](https://doc.rust-lang.org/book/) (book)
+* [rustup](https://rustup.rs/) - Toolchain installer and manager
+* [The Rust Programming Language](https://doc.rust-lang.org/book/) - Official book
 
 Read a local copy of "The Rust Programming Language" book in a web browser with: `rustup doc --book`
 
@@ -28,8 +29,6 @@ vim Cargo.toml
 ```
 
 ## Managing Rust versions
-
-* [rustup](https://rustup.rs/) - Toolchain installer and manager
 
 ```
 # Update Rust on the stable channel
