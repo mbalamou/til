@@ -3,7 +3,6 @@
 * [Crates.io](https://crates.io) - Public package repository
 * [Discord](https://discord.gg/rust-lang) - Official discord server
 * [Docs.rs](https://docs.rs/) - Documentation host for crates
-* [Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
 * [Forum](https://users.rust-lang.org/) - Official forum
 * [Official site](https://www.rust-lang.org/)
 * [Reddit /r/rust](https://www.reddit.com/r/rust)
@@ -37,13 +36,16 @@ cargo run
 ## Cargo
 
 * [Specifying features](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
+* [cargo-make](https://github.com/sagiegurari/cargo-make) - Task runner and build tool
 
 ## Visual Studio Code
 
+* [CodeLLDB extension](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) - Debugger
+* [Rust extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) - Language support
 * [Tasks](https://code.visualstudio.com/docs/editor/tasks#vscode)
 
+`./.vscode/tasks.json`:
 ```
-# ./.vscode/tasks.json
 {
   "version": "2.0.0",
   "tasks": [
