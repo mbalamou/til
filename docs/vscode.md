@@ -9,19 +9,19 @@
 
 Linux|macOS|Description
 ---|---|---
-|⌘P|Quick Open, Go to File
-|⇧⌘P|Show Command Palette
+Ctrl+P|⌘P|Quick Open, Go to File
+Ctrl+Shift+P|⇧⌘P|Show Command Palette
 ⌃`|⌃`|Show integrated terminal
-|⌘K ⌘C|Add line comment
-|⌘K ⌘U|Remove line comment
-|⇧⌥A|Toggle block comment
-|⇧⌘O|Go to Symbol
-|⇧⌘E|Show Explorer / Toggle focus
-|⇧⌘F|Show Search
-|⇧⌘U|Show Output panel
-Ctrl+Shift+Y||Show console
-|⇧⌘H|Replace in files
-|⇧⌘V|Open Markdown preview
+||⌘K ⌘C|Add line comment
+||⌘K ⌘U|Remove line comment
+||⇧⌥A|Toggle block comment
+||⇧⌘O|Go to Symbol
+||⇧⌘E|Show Explorer / Toggle focus
+||⇧⌘F|Show Search
+||⇧⌘U|Show Output panel
+Ctrl+Shift+Y||Show debug console
+||⇧⌘H|Replace in files
+||⇧⌘V|Open Markdown preview
 F9|F9|Toggle breakpoint
 F5|F5|Start/Continue
 F1|F1|Step into
