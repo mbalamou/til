@@ -46,7 +46,7 @@ Set DPMS times: Standby: 600, Suspend: 1200, Off: 1800
 xset dpms 600 1200 1800
 ```
 
-## Find the program which grabbed a key combination
+## Find the program that grabbed a key combination
 
 [StackOverflow](https://unix.stackexchange.com/a/261383)
 

@@ -211,7 +211,7 @@ rake
   * [Xorg](docs/xorg.md#xorg)
     * [xrandr](docs/xorg.md#xrandr)
     * [xset](docs/xorg.md#xset)
-    * [Find the program which grabbed a key combination](docs/xorg.md#find-the-program-which-grabbed-a-key-combination)
+    * [Find the program that grabbed a key combination](docs/xorg.md#find-the-program-that-grabbed-a-key-combination)
     * [Mouse cursor theme](docs/xorg.md#mouse-cursor-theme)
 <!-- mdtoc-end -->
 
