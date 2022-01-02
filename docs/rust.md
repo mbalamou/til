@@ -25,6 +25,8 @@ vim Cargo.toml
 
 ## Managing Rust versions
 
+* [rustup](https://rustup.rs/) - Toolchain installer and manager
+
 ```
 # Update Rust on the stable channel
 rustup update stable
