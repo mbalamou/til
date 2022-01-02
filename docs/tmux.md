@@ -56,21 +56,21 @@ Shortcut|Description
 ## Usage
 
 ```
-$ tmux ls
-$ tmux attach
-$ tmux attach -t ${sessionName}
+tmux ls
+tmux attach
+tmux attach -t ${sessionName}
 
 # Attach to an existing session named "dev" if it exists, or create a new one if it does not
-$ tmux new -As dev
+tmux new -As dev
 
 # Start a new detached session named "dev"
-$ tmux new -d -s dev
+tmux new -d -s dev
 
 # Show current setting value, eg.
-$ tmux show -s status-right
+tmux show -s status-right
 
 # Reload (and validate) configuration file
-$ tmux source-file ~/.tmux.conf
+tmux source-file ~/.tmux.conf
 ```
 
 ## Troubleshooting
