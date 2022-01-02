@@ -29,11 +29,51 @@ cargo new ${project_name}
 
 cd ${project_name}
 vim Cargo.toml
+
+cargo build
+cargo run
 ```
 
 ## Cargo
 
 * [Specifying features](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
+
+## Visual Studio Code
+
+* [Tasks](https://code.visualstudio.com/docs/editor/tasks#vscode)
+
+```
+# ./.vscode/tasks.json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "cargo build",
+      "type": "shell",
+      "command": "cargo build",
+      "args": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "cargo run",
+      "type": "shell",
+      "command": "cargo",
+      "args": [
+        "run"
+      ],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
+```
 
 ## Frameworks, libraries and tools
 
