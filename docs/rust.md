@@ -33,6 +33,15 @@ cargo build
 cargo run
 ```
 
+Ensure that `~/.cargo/env`
+[is sourced in your environment](https://github.com/andornaut/dotfiles/blob/53bff380386a79c805b7bb8337f7c971b859103e/%24HOME/.bashrc.andornaut#L98).
+
+```
+if [[ -f "${HOME}/.cargo/env" ]]; then
+    source "${HOME}/.cargo/env"
+fi
+```
+
 ## Cargo
 
 * [cargo-make](https://github.com/sagiegurari/cargo-make) - Task runner and build tool
