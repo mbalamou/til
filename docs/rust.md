@@ -35,8 +35,8 @@ cargo run
 
 ## Cargo
 
-* [Specifying features](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
 * [cargo-make](https://github.com/sagiegurari/cargo-make) - Task runner and build tool
+* [Specifying features](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
 
 ## Visual Studio Code
 
