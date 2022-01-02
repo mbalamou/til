@@ -37,6 +37,7 @@ rustup update stable
 
 Name | Description
 --- | ---
+[anyhow](https://github.com/dtolnay/anyhow)|Concrete `Error` type built on `std::error::Error`
 [clap](https://github.com/clap-rs/clap)|Parse command line arguments
 [chrono](https://github.com/chronotope/chrono)|Date and time library
 [chrono-tz](https://github.com/chronotope/chrono-tz)|Timezone library
@@ -44,6 +45,7 @@ Name | Description
 [rand](https://github.com/rust-random/rand)|Generate random numbers
 [Serde JSON](https://github.com/serde-rs/json)|Serialize and deserialize JSON
 [tempfile](https://github.com/Stebalien/tempfile)|Create temporary files or directories
+[termion](https://gitlab.redox-os.org/redox-os/termion)|Library for controlling TTYs
 [tui](https://crates.io/crates/tui)|Text User Interface (TUI) library. ([Comparison to cursive](https://github.com/gyscos/cursive/wiki/Cursive-vs-tui%E2%80%90rs)).
 [uuid](https://github.com/uuid-rs/uuid)|Generate and parse UUIDs
 
