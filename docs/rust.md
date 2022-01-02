@@ -2,6 +2,7 @@
 
 * [Crates.io](https://crates.io) - Public package repository
 * [Docs.rs](https://docs.rs/) - Documentation host for crates
+* [Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
 * [Official site](https://www.rust-lang.org/)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/) (book)
 
