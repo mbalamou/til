@@ -14,12 +14,24 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 
 ## Getting started
 
+Install system packages
 ```
 apt install cargo rustc
 
 # Update Rust on the stable channel
 rustup update stable
+```
 
+Ensure that `~/.cargo/env`
+[is sourced in your environment](https://github.com/andornaut/dotfiles/blob/53bff380386a79c805b7bb8337f7c971b859103e/%24HOME/.bashrc.andornaut#L98).
+```
+if [[ -f "${HOME}/.cargo/env" ]]; then
+    source "${HOME}/.cargo/env"
+fi
+```
+
+Create a project
+```
 # Use the binary template by default: --bin
 cargo new ${project_name}
 
@@ -31,15 +43,6 @@ vim Cargo.toml
 
 cargo build
 cargo run
-```
-
-Ensure that `~/.cargo/env`
-[is sourced in your environment](https://github.com/andornaut/dotfiles/blob/53bff380386a79c805b7bb8337f7c971b859103e/%24HOME/.bashrc.andornaut#L98).
-
-```
-if [[ -f "${HOME}/.cargo/env" ]]; then
-    source "${HOME}/.cargo/env"
-fi
 ```
 
 ## Cargo
