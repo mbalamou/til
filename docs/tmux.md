@@ -31,7 +31,7 @@ Shortcut|Description
 `C-b c`|Create a window
 `C-b C-b d`|[Detach inner tmux session](https://superuser.com/a/249671)
 `C-b D`|List clients
-`C-b [`|Enter Copy/Paste and [Scoll mode](https://superuser.com/a/209608)
+`C-b [`|Enter Copy/Paste and [Scroll mode](#Scrolling)
 `C-b ]`|Paste
 `C-b 0-9`|Switch to window number
 `C-b (`|Switch to the previous session
@@ -52,6 +52,16 @@ Shortcut|Description
 `C-b w`|Enter [tree mode](https://github.com/tmux/tmux/wiki/Getting-Started#choosing-sessions-windows-and-panes). `x` to kill a pane/window/session
 `C-b :`|Command line
 `C-c`|Cancel
+
+### Scrolling
+
+* [Stackoverflow](https://superuser.com/a/209608)
+
+`C-b` to enter "scroll mode"
+`C-u` to scroll up half a screen
+`C-d` to scroll down half a screen
+`C-b C-b` to scroll up a full screen
+`C-f` to scroll down a full screen
 
 ## Usage
 
