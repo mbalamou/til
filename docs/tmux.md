@@ -31,7 +31,7 @@ Shortcut|Description
 `C-b c`|Create a window
 `C-b C-b d`|[Detach inner tmux session](https://superuser.com/a/249671)
 `C-b D`|List clients
-`C-b [`|Enter Copy/Paste and [Scroll mode](#Scrolling)
+`C-b [`|Enter copy/paste and [scroll mode](#scrolling)
 `C-b ]`|Paste
 `C-b 0-9`|Switch to window number
 `C-b (`|Switch to the previous session
@@ -55,13 +55,15 @@ Shortcut|Description
 
 ### Scrolling
 
-* [Stackoverflow](https://superuser.com/a/209608)
+* [Super User](https://superuser.com/a/209608)
 
-`C-b` to enter "scroll mode"
-`C-u` to scroll up half a screen
-`C-d` to scroll down half a screen
-`C-b C-b` to scroll up a full screen
-`C-f` to scroll down a full screen
+Shortcut|Description
+---|---
+`C-b`|Enter scroll mode
+`C-u`|Half page up
+`C-d`|Half page down
+`C-b C-b`|Page up
+`C-f`|Page down
 
 ## Usage
 
