@@ -9,11 +9,11 @@
 
 Linux|macOS|Description
 ---|---|---
-Ctrl+P|⌘P|Quick Open, Go to File
-Ctrl+Shift+P|⌘⇧P|Show Command Palette
+Ctrl+p|⌘p|Quick Open, Go to File
+Ctrl+Shift+p|⌘⇧P|Show Command Palette
 ⌃`|⌃`|Show integrated terminal
-||⌘K ⌘C|Add line comment
-||⌘K ⌘U|Remove line comment
+|Ctrl+k Ctrl+c|⌘k ⌘c|Add line comment (cord shortcuts)
+|Ctrl+k Ctrl+u|⌘k ⌘u|Remove line comment (cord shortcuts)
 ||⌥⇧A|Toggle block comment
 ||⌘⇧O|Go to Symbol
 ||⌘⇧E|Show Explorer / Toggle focus
