@@ -17,8 +17,8 @@
 ## Books
 
 * [Programming Rust, 2nd Edition (2021)](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
-* [Rust for Rustaceans](https://nostarch.com/rust-rustaceans)
-* [The Rust Programming Language](https://doc.rust-lang.org/book/)
+* [Rust for Rustaceans (2021)](https://nostarch.com/rust-rustaceans)
+* [The Rust Programming Language (2019)](https://doc.rust-lang.org/book/)
 
 Read a local copy of "The Rust Programming Language" book in a web browser with: `rustup doc --book`
 
