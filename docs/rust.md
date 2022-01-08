@@ -69,7 +69,7 @@ cargo run
 ## Visual Studio Code
 
 * [CodeLLDB extension](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) - Debugger
-* [Rust extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) - Language support. Conflicts with [Rust-analyzer extension](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Language support (new, experimental).
+* [Rust extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) - Language support. Conflicts with [Rust-analyzer extension](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer).
 * [Rust-analyzer extension](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Language support (experimental, but **recommended**). Conflicts with [Rust extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust).
 * [Tasks](https://code.visualstudio.com/docs/editor/tasks#vscode)
 
