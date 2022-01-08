@@ -3,27 +3,39 @@
 * [Crates.io](https://crates.io) - Public package repository
 * [Discord](https://discord.gg/rust-lang) - Official discord server
 * [Docs.rs](https://docs.rs/) - Documentation host for crates
-* [Documentation](https://doc.rust-lang.org/) - Official documentation
 * [Documentation > Editions](https://doc.rust-lang.org/edition-guide/editions/index.html)
 * [Documentation > Standard Library](https://doc.rust-lang.org/std/index.html)
 * [Documentation > Test](https://doc.rust-lang.org/test/index.html)
+* [Documentation](https://doc.rust-lang.org/) - Official documentation
 * [Forum](https://users.rust-lang.org/) - Official forum
+* [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Official site](https://www.rust-lang.org/)
 * [Reddit /r/rust](https://www.reddit.com/r/rust)
 * [`##rust` @ irc.libera.chat](https://web.libera.chat/?chan=##rust) - IRC channel
 * [rustup](https://rustup.rs/) - Toolchain installer and manager
-* [The Rust Programming Language](https://doc.rust-lang.org/book/) - Official book
+
+## Books
+
+* [Programming Rust, 2nd Edition (2021)](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+* [Rust for Rustaceans](https://nostarch.com/rust-rustaceans)
+* [The Rust Programming Language](https://doc.rust-lang.org/book/)
 
 Read a local copy of "The Rust Programming Language" book in a web browser with: `rustup doc --book`
 
 ## Getting started
 
+* [Documentation > Channels](https://rust-lang.github.io/rustup/concepts/channels.html)
+
 Install system packages
 ```
 apt install cargo rustc
 
-# Update Rust on the stable channel
-rustup update stable
+# Update Rust on the stable, beta, or nightly channel
+channel=stable
+#channel=beta
+#channel=beta
+rustup update ${channel}
+rustup default ${channel}
 ```
 
 Ensure that `~/.cargo/env`
@@ -58,7 +70,7 @@ cargo run
 
 * [CodeLLDB extension](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) - Debugger
 * [Rust extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) - Language support. Conflicts with [Rust-analyzer extension](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Language support (new, experimental).
-* [Rust-analyzer extension](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Language support (new, experimental). Conflicts with [Rust extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust).
+* [Rust-analyzer extension](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Language support (experimental, but **recommended**). Conflicts with [Rust extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust).
 * [Tasks](https://code.visualstudio.com/docs/editor/tasks#vscode)
 
 `./.vscode/tasks.json`:

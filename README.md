@@ -157,6 +157,7 @@ rake
     * [Package managment / Dependencies](docs/ruby.md#package-managment--dependencies)
     * [Tips and tricks](docs/ruby.md#tips-and-tricks)
   * [Rust](docs/rust.md#rust)
+    * [Books](docs/rust.md#books)
     * [Getting started](docs/rust.md#getting-started)
     * [Cargo](docs/rust.md#cargo)
     * [Visual Studio Code](docs/rust.md#visual-studio-code)
