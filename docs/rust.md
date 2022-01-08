@@ -31,9 +31,9 @@ Install system packages
 apt install cargo rustc
 
 # Update Rust on the stable, beta, or nightly channel
+#channel=beta
+#channel=nightly
 channel=stable
-#channel=beta
-#channel=beta
 rustup update ${channel}
 rustup default ${channel}
 ```
