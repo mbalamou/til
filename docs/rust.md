@@ -10,6 +10,7 @@
 * [Forum](https://users.rust-lang.org/) - Official forum
 * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Official site](https://www.rust-lang.org/)
+* [Playground](https://play.rust-lang.org/) - Run code on the web
 * [Reddit /r/rust](https://www.reddit.com/r/rust)
 * [`##rust` @ irc.libera.chat](https://web.libera.chat/?chan=##rust) - IRC channel
 * [rustup](https://rustup.rs/) - Toolchain installer and manager
