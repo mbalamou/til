@@ -112,6 +112,7 @@ cargo run
 Name | Description
 --- | ---
 [anyhow](https://github.com/dtolnay/anyhow)|Concrete `Error` type built on `std::error::Error`
+[bevy](https://bevyengine.org/)|Game engine
 [clap](https://github.com/clap-rs/clap)|Parse command line arguments
 [chrono](https://github.com/chronotope/chrono)|Date and time library
 [chrono-tz](https://github.com/chronotope/chrono-tz)|Timezone library
