@@ -1,5 +1,6 @@
 # Rust
 
+* [Blog](https://blog.rust-lang.org/) - Official blog
 * [Crates.io](https://crates.io) - Public package repository
 * [Discord](https://discord.gg/rust-lang) - Official discord server
 * [Docs.rs](https://docs.rs/) - Documentation host for crates
@@ -8,7 +9,6 @@
 * [Documentation > Test](https://doc.rust-lang.org/test/index.html)
 * [Documentation](https://doc.rust-lang.org/) - Official documentation
 * [Forum](https://users.rust-lang.org/) - Official forum
-* [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Official site](https://www.rust-lang.org/)
 * [Playground](https://play.rust-lang.org/) - Run code on the web
 * [Reddit /r/rust](https://www.reddit.com/r/rust)
@@ -22,6 +22,12 @@
 * [The Rust Programming Language (2019)](https://doc.rust-lang.org/book/)
 
 Read a local copy of "The Rust Programming Language" book in a web browser with: `rustup doc --book`
+
+## Articles and blogs
+
+* [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+* [Learning about Rust's next, peek, and windows](https://sts10.github.io/2020/10/06/peeking-the-pivot.html)
+* [Rust and TUI: Building a command-line interface in Rust](https://blog.logrocket.com/rust-and-tui-building-a-command-line-interface-in-rust/)
 
 ## Getting started
 
@@ -107,23 +113,37 @@ cargo run
 }
 ```
 
-## Frameworks, libraries and tools
+## Crates - Frameworks and libraries
 
 Name | Description
 --- | ---
 [anyhow](https://github.com/dtolnay/anyhow)|Concrete `Error` type built on `std::error::Error`
-[bevy](https://bevyengine.org/)|Game engine
 [clap](https://github.com/clap-rs/clap)|Parse command line arguments
 [chrono](https://github.com/chronotope/chrono)|Date and time library
 [chrono-tz](https://github.com/chronotope/chrono-tz)|Timezone library
 [crossterm](https://github.com/crossterm-rs/crossterm)|Library for controlling terminals
 [cursive](https://github.com/gyscos/Cursive)|Text User Interface (TUI) library. ([Comparison to tui](https://github.com/gyscos/cursive/wiki/Cursive-vs-tui%E2%80%90rs)).
+[enum-iterator](https://crates.io/crates/enum-iterator)
 [rand](https://github.com/rust-random/rand)|Generate random numbers
 [Serde JSON](https://github.com/serde-rs/json)|Serialize and deserialize JSON
 [tempfile](https://github.com/Stebalien/tempfile)|Create temporary files or directories
 [tui](https://crates.io/crates/tui)|Text User Interface (TUI) library. ([Comparison to cursive](https://github.com/gyscos/cursive/wiki/Cursive-vs-tui%E2%80%90rs)).
 [uuid](https://github.com/uuid-rs/uuid)|Generate and parse UUIDs
 
+## Software
+
+[bevy](https://bevyengine.org/)|Game engine
+
 ## Debugging
 
 * [Debugging with GDB](https://blog.logrocket.com/debugging-rust-apps-with-gdb/)
+
+## Troubleshooting
+
+```
+$ cargo build
+   Compiling space_time_rewind v0.1.0 (/home/andornaut/src/github.com/andornaut/space-time-rewind)
+thread 'rustc' panicked at 'failed to lookup `SourceFile` in new context', compiler/rustc_query_impl/src/on_disk_cache.rs:514:22
+```
+
+[Fix](https://github.com/rust-lang/rust/issues/70924): `cargo clean && cargo build`
