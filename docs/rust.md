@@ -34,7 +34,7 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 * [Documentation > Channels](https://rust-lang.github.io/rustup/concepts/channels.html)
 * [Install Rust](https://www.rust-lang.org/tools/install)
 
-Install system packages on Ubuntu
+Install system packages
 ```
 # Make sure rust isn't installed, because we'll manage rust version using rustup
 # Linux: apt uninstall cargo rust
@@ -51,7 +51,8 @@ if [[ -f "${HOME}/.cargo/env" ]]; then
 fi
 ```
 
-# Update Rust on the stable, beta, or nightly channel
+Update Rust on the stable, beta, or nightly channel
+```
 #channel=beta
 #channel=nightly
 channel=stable
