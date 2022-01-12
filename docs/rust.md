@@ -32,10 +32,24 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 ## Getting started
 
 * [Documentation > Channels](https://rust-lang.github.io/rustup/concepts/channels.html)
+* [Install Rust](https://www.rust-lang.org/tools/install)
 
-Install system packages
+Install system packages on Ubuntu
 ```
-apt install cargo rustc
+# Make sure rust isn't installed, because we'll manage rust version using rustup
+# Linux: apt uninstall cargo rust
+# macOS: brew uninstall rust
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Ensure that `~/.cargo/env`
+[is sourced in your environment](https://github.com/andornaut/dotfiles/blob/53bff380386a79c805b7bb8337f7c971b859103e/%24HOME/.bashrc.andornaut#L98). `rustup` may update `~/.bashrc`, `~/.profile`, and/or `~/.zshenv` accordingly, but you may wish to modify these files according to your needs.
+```
+if [[ -f "${HOME}/.cargo/env" ]]; then
+    source "${HOME}/.cargo/env"
+fi
+```
 
 # Update Rust on the stable, beta, or nightly channel
 #channel=beta
@@ -43,14 +57,6 @@ apt install cargo rustc
 channel=stable
 rustup update ${channel}
 rustup default ${channel}
-```
-
-Ensure that `~/.cargo/env`
-[is sourced in your environment](https://github.com/andornaut/dotfiles/blob/53bff380386a79c805b7bb8337f7c971b859103e/%24HOME/.bashrc.andornaut#L98).
-```
-if [[ -f "${HOME}/.cargo/env" ]]; then
-    source "${HOME}/.cargo/env"
-fi
 ```
 
 Create a project
