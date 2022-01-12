@@ -166,6 +166,12 @@ kern.maxfilesperproc=104857
 END
 ```
 
+### Bypass macOS app installation restrictions
+
+```
+xattr -d com.apple.quarantine /Applications/...app
+```
+
 ### Fix OpenSSL errors
 
 * [Bundler SSL Guide](https://bundler.io/guides/rubygems_tls_ssl_troubleshooting_guide.html#troubleshooting-certificate-errors)
@@ -176,7 +182,7 @@ brew info openssl
 sudo cp /usr/local/etc/openssl\@1.1/cert.pem  /opt/local/etc/openssl/cert.pem
 ```
 
-## Reinstall xcode
+### Reinstall xcode
 
 ```
 # Get Xcode version
