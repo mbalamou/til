@@ -28,6 +28,8 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Learning about Rust's next, peek, and windows](https://sts10.github.io/2020/10/06/peeking-the-pivot.html)
 * [Playing with tui-rs](https://monkeypatch.io/blog/2021/2021-05-31-rust-tui/) - Covers async + TUI
+* [RefCell<T> and the Interior Mutability Pattern](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html)
+* [Shared-State Concurrency](https://doc.rust-lang.org/book/ch16-03-shared-state.html)
 * [Rust and TUI: Building a command-line interface in Rust](https://blog.logrocket.com/rust-and-tui-building-a-command-line-interface-in-rust/)
 
 ## Getting started
