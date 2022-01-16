@@ -207,6 +207,7 @@ rake
     * [Debugging and troubleshooting](docs/ubuntu.md#debugging-and-troubleshooting)
       * [Fix broken grub install](docs/ubuntu.md#fix-broken-grub-install)
       * [apt update 404](docs/ubuntu.md#apt-update-404)
+      * [gnome-control-center segmentation fault on startup](docs/ubuntu.md#gnome-control-center-segmentation-fault-on-startup)
   * [Vim](docs/vim.md#vim)
     * [Commands](docs/vim.md#commands)
     * [Tips](docs/vim.md#tips)

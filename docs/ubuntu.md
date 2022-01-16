@@ -227,3 +227,13 @@ This error occurs when running `apt update` on an unsupported version of Ubuntu.
 ```
 sudo sed -i -e 's/\([a-z]*.\?\)\?archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
 ```
+
+### gnome-control-center segmentation fault on startup
+
+* [StackOverflow](https://askubuntu.com/a/1356965)
+
+```
+dconf reset -f /org/gnome/control-center/
+# Or more drastically:
+rm -rf .config/dconf/
+```
