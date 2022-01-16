@@ -57,17 +57,20 @@ apt-file update
 apt-file search ${pattern}
 ```
 
-### Ubuntu packages to uninstall
-
-```
-sudo apt purge evolution* whoopsie*
-```
-
-### Free up disk-space
+### Post-install cleanup / Uninstall packages
 
 * [Ask Ubuntu](https://askubuntu.com/a/984800)
 
 ```
+sudo apt purge evolution* language-selector-gnome whoopsie*
+
+# Remove Snap
+sudo rm -rf /var/cache/snapd/
+sudo apt autoremove --purge snapd gnome-software-plugin-snap
+sudo apt-mark hold snapd
+rm -rf ~/snap
+
+# Free up disk-space
 sudo apt autoremove && sudo apt clean
 ```
 
