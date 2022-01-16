@@ -95,14 +95,6 @@ echo -n "" > /var/lib/ubuntu-release-upgrader/release-upgrade-available
 
 Use `dconf watch /` to monitor changes.
 
-Using dconf-editor:
-```
-apt-get install dconf-tools
-dconf-editor
-# Navigate to: /org/gnome/desktop/wm/keybindings/switch-input-source
-# Set to []
-```
-
 Using dconf:
 
 [@au [] specifies the type of the empty array](https://developer.gnome.org/glib/stable/gvariant-text.html#gvariant-text-type-annotations) (which would not parse otherwise)
@@ -117,6 +109,15 @@ dconf write /org/gnome/settings-daemon/plugins/keyboard/active false
 # Restart (replace) ibus-daemon
 ibus-daemon -rd
 ```
+
+Using dconf-editor:
+```
+apt install dconf-editor
+dconf-editor
+# Navigate to: /org/gnome/desktop/wm/keybindings/switch-input-source
+# Set to []
+```
+
 
 ## Magic SysRq Keys
 
