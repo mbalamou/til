@@ -232,8 +232,8 @@ sudo sed -i -e 's/\([a-z]*.\?\)\?archive.ubuntu.com\|security.ubuntu.com/old-rel
 
 * [StackOverflow](https://askubuntu.com/a/1356965)
 
+This can be caused by accessing the "Sound" section/tab of Gnome Control Center on an installation provisioned by [ansible-workstation](https://github.com/andornaut/ansible-workstation).
+
 ```
-dconf reset -f /org/gnome/control-center/
-# Or more drastically:
 rm -rf .config/dconf/
 ```
