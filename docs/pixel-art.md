@@ -15,6 +15,7 @@ Key combination|Description
 ---|---
 b|Pencil (brush)
 e|Eraser
+g|Paint bucket (fill)
 m|Rectangular marquee (selection tool)
 w|Magic want (selection tool)
 v|Move elements
