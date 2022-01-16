@@ -23,3 +23,19 @@ Set "Outgoing Network Interfaces" to "LAN"
 
 > The problem ist that unbound will by default send all replies out on all interfaces. We set the outbound interface to the LAN interface (while still listening on ALL). This routes the domain-overrides through the Tunnels and all others out the WAN interface.
 
+## VPN
+
+### How to configure remote access on a client Linux device
+
+* [OpenVPN Client Export](https://docs.netgate.com/pfsense/en/latest/packages/openvpn-client-export.html)
+
+On the pfSense server:
+1. Navigate to VPN -> OpenVPN -> Client Export
+1. Scroll down to the "OpenVPN Clients" section
+1. Click on the following button to download an *.ovpn file: Inline Configurations -> Most Clients
+
+On the client Linux device:
+1. Click on the nm-applet icon in the application tray
+1. Navigate to VPN Connections -> Configure VPN
+1. In the "Choose a Connection Type" prompt, select "Import a saved VPN configuration..."
+1. Select the previously exported *.ovpn file

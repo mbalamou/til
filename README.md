@@ -133,6 +133,8 @@ rake
   * [pfSense](docs/pfsense.md#pfsense)
     * [Increase swap](docs/pfsense.md#increase-swap)
     * [Domain Overrides over OpenVPN](docs/pfsense.md#domain-overrides-over-openvpn)
+    * [VPN](docs/pfsense.md#vpn)
+      * [How to configure remote access on a client Linux device](docs/pfsense.md#how-to-configure-remote-access-on-a-client-linux-device)
   * [Pixel Art](docs/pixel-art.md#pixel-art)
     * [Aseprite (software)](docs/pixel-art.md#aseprite-software)
     * [Learning](docs/pixel-art.md#learning)
