@@ -133,7 +133,7 @@ Name | Description
 [chrono-tz](https://github.com/chronotope/chrono-tz)|Timezone library
 [crossterm](https://github.com/crossterm-rs/crossterm)|Library for controlling terminals
 [cursive](https://github.com/gyscos/Cursive)|Text User Interface (TUI) library. ([Comparison to tui](https://github.com/gyscos/cursive/wiki/Cursive-vs-tui%E2%80%90rs)).
-[enum-iterator](https://crates.io/crates/enum-iterator)
+[enum-iterator](https://crates.io/crates/enum-iterator)|Library to iterate over the variants of field-less enums
 [gtk-rs](https://gtk-rs.org/)|GTK4, Cairo, glib, etc bindings
 [rand](https://github.com/rust-random/rand)|Generate random numbers
 [Serde JSON](https://github.com/serde-rs/json)|Serialize and deserialize JSON
