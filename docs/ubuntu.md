@@ -15,7 +15,7 @@ Command | Description
 [lutris](https://lutris.net/)|Wine, Steam, etc game launcher
 [obs](https://obsproject.com/)|Tool to record video and perform live streaming
 [pcmanfm](https://sourceforge.net/projects/pcmanfm/)|File manager
-[piper](https://github.com/libratbag/piper)|Congigure mouse DPI
+[piper](https://github.com/libratbag/piper)|Configure mouse DPI
 [retroarch](https://www.retroarch.com/)|ROM game and emulator launcher
 [seahorse](https://wiki.gnome.org/Apps/Seahorse) | Tool to manage the Gnome keyring
 [solaar](https://pwr-solaar.github.io/Solaar/)|Manage Logitech unifying receivers and devices
