@@ -27,6 +27,7 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 
 ## Articles and blogs
 
+* [Finding Closure in Rust](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
 * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Learning about Rust's next, peek, and windows](https://sts10.github.io/2020/10/06/peeking-the-pivot.html)
 * [Playing with tui-rs](https://monkeypatch.io/blog/2021/2021-05-31-rust-tui/) - Covers async + TUI
