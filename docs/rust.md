@@ -30,6 +30,7 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 * [Finding Closure in Rust](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
 * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Learning about Rust's next, peek, and windows](https://sts10.github.io/2020/10/06/peeking-the-pivot.html)
+* [min-sized-rust](https://github.com/johnthagen/min-sized-rust) - Minimize the size of a Rust binary
 * [Playing with tui-rs](https://monkeypatch.io/blog/2021/2021-05-31-rust-tui/) - Covers async + TUI
 * [Rust and TUI: Building a command-line interface in Rust](https://blog.logrocket.com/rust-and-tui-building-a-command-line-interface-in-rust/)
 
@@ -83,6 +84,13 @@ cargo run
 
 * [cargo-make](https://github.com/sagiegurari/cargo-make) - Task runner and build tool
 * [Specifying features](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
+
+```
+# List features enabled for each dependency
+cargo tree -f "{p} {f}"
+# More verbose version of the above
+cargo tree -e features
+```
 
 ## Visual Studio Code
 
