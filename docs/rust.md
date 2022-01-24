@@ -76,6 +76,9 @@ cargo new ${project_name}
 cd ${project_name}
 vim Cargo.toml
 
+# Use the toolchain from the nightly channel for this project/directory
+rustup override set nightly
+
 cargo build
 cargo run
 ```
