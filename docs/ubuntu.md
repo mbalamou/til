@@ -6,7 +6,7 @@
 
 ## Applications and packages
 
-Command | Description
+Application | Description
 --- | ---
 [aseprite](https://www.aseprite.org/)|Pixel art tool
 [blueman](https://wiki.archlinux.org/title/Blueman)|Bluetooth manager
@@ -21,7 +21,7 @@ Command | Description
 [solaar](https://pwr-solaar.github.io/Solaar/)|Manage Logitech unifying receivers and devices
 [usb-creator-gtk](https://launchpad.net/ubuntu/+source/usb-creator)|Tool to write ISO files to USB storage devices
 
-## Desktop environment
+### Desktop environment
 
 Application | Description
 --- | ---
@@ -30,7 +30,7 @@ Application | Description
 [Sway WM](https://swaywm.org/)|i3-compatible Wayland compositor 
 [Waybar](https://github.com/Alexays/Waybar)|Bar for Wayland
 
-### Monitoring and statistics applications
+### Monitoring and statistics commands
 
 Command | Description
 --- | ---
