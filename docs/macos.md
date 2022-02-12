@@ -168,6 +168,8 @@ END
 
 ### Bypass macOS app installation restrictions
 
+* [gon - CLI library for macOS Notarization](https://github.com/mitchellh/gon)
+
 ```
 xattr -d com.apple.quarantine /Applications/...app
 ```
