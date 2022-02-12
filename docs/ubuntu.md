@@ -21,6 +21,15 @@ Command | Description
 [solaar](https://pwr-solaar.github.io/Solaar/)|Manage Logitech unifying receivers and devices
 [usb-creator-gtk](https://launchpad.net/ubuntu/+source/usb-creator)|Tool to write ISO files to USB storage devices
 
+## Desktop environment
+
+Application | Description
+--- | ---
+[BSPWM](https://github.com/baskerville/bspwm)|Tiling window manager for X11 ([ansible-role-bspwm](https://github.com/andornaut/ansible-role-bspwm/))
+[River WM](https://github.com/riverwm/river)|Dynamic tiling Wayland compositor 
+[Sway WM](https://swaywm.org/)|i3-compatible Wayland compositor 
+[Waybar](https://github.com/Alexays/Waybar)|Bar for Wayland
+
 ### Monitoring and statistics applications
 
 Command | Description

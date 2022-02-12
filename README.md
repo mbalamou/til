@@ -191,6 +191,7 @@ rake
     * [Troubleshooting](docs/tmux.md#troubleshooting)
   * [Ubuntu](docs/ubuntu.md#ubuntu)
     * [Applications and packages](docs/ubuntu.md#applications-and-packages)
+    * [Desktop environment](docs/ubuntu.md#desktop-environment)
       * [Monitoring and statistics applications](docs/ubuntu.md#monitoring-and-statistics-applications)
       * [Search for installed applications](docs/ubuntu.md#search-for-installed-applications)
       * [Search for Ubuntu packages by filename](docs/ubuntu.md#search-for-ubuntu-packages-by-filename)
