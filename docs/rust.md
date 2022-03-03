@@ -34,6 +34,7 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 * [min-sized-rust](https://github.com/johnthagen/min-sized-rust) - Minimize the size of a Rust binary
 * [Playing with tui-rs](https://monkeypatch.io/blog/2021/2021-05-31-rust-tui/) - Covers async + TUI
 * [Rust and TUI: Building a command-line interface in Rust](https://blog.logrocket.com/rust-and-tui-building-a-command-line-interface-in-rust/)
+* [Rust's Rules Are Made to Be Broken](https://blog.warp.dev/rules-are-made-to-be-broken/)
 
 ## Getting started
 
