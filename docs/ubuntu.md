@@ -67,6 +67,22 @@ apt-file update
 apt-file search ${pattern}
 ```
 
+### Default application associations
+
+* [StackOverflow](https://unix.stackexchange.com/a/59088)
+
+Edit `~/.config/mimeapps.list`:
+```
+[Default Applications]
+text/html=firefox.desktop
+application/pdf=org.gnome.Evince.desktop
+```
+
+Associate PDFs with Evince:
+```
+xdg-mime default org.gnome.Evince.desktop application/pdf
+```
+
 ### Post-install cleanup / Uninstall packages
 
 * [Ask Ubuntu](https://askubuntu.com/a/984800)
@@ -127,7 +143,6 @@ dconf-editor
 # Navigate to: /org/gnome/desktop/wm/keybindings/switch-input-source
 # Set to []
 ```
-
 
 ## Magic SysRq Keys
 

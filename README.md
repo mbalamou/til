@@ -195,6 +195,7 @@ rake
       * [Monitoring and statistics commands](docs/ubuntu.md#monitoring-and-statistics-commands)
       * [Search for installed applications](docs/ubuntu.md#search-for-installed-applications)
       * [Search for Ubuntu packages by filename](docs/ubuntu.md#search-for-ubuntu-packages-by-filename)
+      * [Default application associations](docs/ubuntu.md#default-application-associations)
       * [Post-install cleanup / Uninstall packages](docs/ubuntu.md#post-install-cleanup--uninstall-packages)
     * [Upgrade Ubuntu from non-LTS to LTS](docs/ubuntu.md#upgrade-ubuntu-from-non-lts-to-lts)
     * [Disable release upgrade notifications](docs/ubuntu.md#disable-release-upgrade-notifications)
