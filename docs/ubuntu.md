@@ -100,13 +100,12 @@ rm -rf ~/snap
 sudo apt autoremove && sudo apt clean
 ```
 
-## Upgrade Ubuntu from non-LTS to LTS
+## Upgrade Ubuntu from LTS to non-LTS
 
-* `$ gksudo update-manager -d`
-* Open "Settings"
-* Select the 3rd Tab called "Updates".
-* Set the "Notify me of a new Ubuntu version" dropdown menu to "For any new version".
-* `$ sudo do-release-upgrade -d`
+```
+sudo sed -i 's/^\(Prompt\s*=\s*\)\w\+/\1normal/g' /etc/update-manager/release-upgrades
+sudo do-release-upgrade
+```
 
 ## Disable release upgrade notifications
 
