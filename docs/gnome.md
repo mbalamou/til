@@ -42,29 +42,36 @@ $ gnome-screensaver &
 ## GTK
 
 * [Arch Wiki](https://wiki.archlinux.org/title/GTK)
+* [Hardcode Tray](https://github.com/bilelmoussaoui/Hardcode-Tray)
+* [Numix Icon Theme](https://github.com/numixproject/numix-icon-theme)
 
-Change GTK settings using `gnome-tweaks`
-
-Set the GTK2 theme using `gtk-theme-switch2`
+Applications: `gnome-tweaks` or `gtk-theme-switch2` (GTK2)
 
 ```
-$ sudo apt-get install -qy adwaita-icon-theme-full gnome-themes-standard
+sudo apt-get install -qy --no-install-recommends \
+    adwaita-icon-theme-full gnome-themes-standard gtk-theme-switch gnome-tweaks
 ```
 
-Configure GTK2:
+Configure GTK2 using RC files:
 ```
 #~/.gtkrc-2.0
 gtk-icon-theme-name = "Adwaita"
 gtk-theme-name = "Adwaita"
 gtk-font-name = "DejaVu Sans 11"
 ```
-Configure GTK3:
+Configure GTK3 using RC files:
 ```
 # $XDG_CONFIG_HOME/gtk-3.0/settings.ini
 [settings]
 gtk-icon-theme-name = Adwaita
 gtk-theme-name = Adwaita
 gtk-font-name = DejaVu Sans 11
+```
+Configure GTK3 using gsettings:
+```
+gsettings set org.gnome.desktop.interface icon-theme Adwaita
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita
+gsettings set org.gnome.desktop.interface font-name 'DejaVu Sans Book 11'
 ```
 
 ## OSD

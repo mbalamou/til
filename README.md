@@ -11,7 +11,6 @@ rake
 ## Table of contents
 
 <!-- mdtoc -->
-  * [.gnome.md](docs/.gnome.md.swp)
   * [Ansible](docs/ansible.md#ansible)
     * [Debugging](docs/ansible.md#debugging)
     * [Ansible Galaxy](docs/ansible.md#ansible-galaxy)
