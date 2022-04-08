@@ -12,7 +12,8 @@ Application | Description
 [blueman](https://wiki.archlinux.org/title/Blueman)|Bluetooth manager
 [evince](https://en.wikipedia.org/wiki/Evince)|Document viewer
 [gnome-disks](https://gitlab.gnome.org/GNOME/gnome-disk-utility)|Tool to manage storage devices
-[heroic](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher)|"Epic Games Store" launcher
+[heroic](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher)|[Epic Games Store](https://www.epicgames.com) launcher
+[itch](https://itch.io/app)|[itch.io](https://itch.io) game launcher
 [lutris](https://lutris.net/)|Wine, Steam, etc game launcher
 [obs](https://obsproject.com/)|Tool to record video and perform live streaming
 [pcmanfm](https://sourceforge.net/projects/pcmanfm/)|File manager
