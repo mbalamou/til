@@ -63,7 +63,7 @@ rake
   * [Gnome](docs/gnome.md#gnome)
     * [gnome-screensaver settings](docs/gnome.md#gnome-screensaver-settings)
       * [Screensaver lockscreen background](docs/gnome.md#screensaver-lockscreen-background)
-    * [GTK Fonts](docs/gnome.md#gtk-fonts)
+    * [GTK](docs/gnome.md#gtk)
     * [OSD](docs/gnome.md#osd)
     * [Printing](docs/gnome.md#printing)
   * [Go](docs/go.md#go)

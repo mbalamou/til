@@ -39,11 +39,28 @@ $ killall gnome-screensaver
 $ gnome-screensaver &
 ```
 
-## GTK Fonts
+## GTK
+
+* [Arch Wiki](https://wiki.archlinux.org/title/GTK)
+
+Change GTK settings using `gnome-tweaks`
+
+Set the GTK2 theme using `gtk-theme-switch2`
 
 ```
 $ sudo apt-get install -qy adwaita-icon-theme-full gnome-themes-standard
-$ cat $HOME/.config/gtk-3.0/settings.ini
+```
+
+Configure GTK2:
+```
+#~/.gtkrc-2.0
+gtk-icon-theme-name = "Adwaita"
+gtk-theme-name = "Adwaita"
+gtk-font-name = "DejaVu Sans 11"
+```
+Configure GTK3:
+```
+# $XDG_CONFIG_HOME/gtk-3.0/settings.ini
 [settings]
 gtk-icon-theme-name = Adwaita
 gtk-theme-name = Adwaita

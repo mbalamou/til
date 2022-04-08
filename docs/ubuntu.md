@@ -92,7 +92,7 @@ sudo apt purge evolution* language-selector-gnome whoopsie*
 
 # Remove Snap
 sudo rm -rf /var/cache/snapd/
-sudo apt autoremove --purge snapd gnome-software-plugin-snap
+sudo apt autoremove --purge snapd gnome-software-plugin-snap speech-dispatcher
 sudo apt-mark hold snapd
 rm -rf ~/snap
 
