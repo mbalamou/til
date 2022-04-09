@@ -27,8 +27,13 @@ Application | Description
 
 Application | Description
 --- | ---
+[Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)|Lockscreen for X11
 [BSPWM](https://github.com/baskerville/bspwm)|Tiling window manager for X11 ([ansible-role-bspwm](https://github.com/andornaut/ansible-role-bspwm/))
+[ElKowars wacky widgets (EWW)](https://github.com/elkowar/eww/)|Bar for X11 and Wayland
+[Ly](https://github.com/fairyglade/ly)|Display manager
 [River WM](https://github.com/riverwm/river)|Dynamic tiling Wayland compositor 
+[Rofi](https://github.com/davatorium/rofi)|Window switcher, application launcher and dmenu replacement 
+[Stalonetray](https://github.com/kolbusa/stalonetray)|System tray for X11
 [Sway WM](https://swaywm.org/)|i3-compatible Wayland compositor 
 [Waybar](https://github.com/Alexays/Waybar)|Bar for Wayland
 
