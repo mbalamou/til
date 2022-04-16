@@ -167,6 +167,7 @@ rake
     * [Books](docs/rust.md#books)
     * [Articles and blogs](docs/rust.md#articles-and-blogs)
     * [Getting started](docs/rust.md#getting-started)
+    * [Macros](docs/rust.md#macros)
     * [Cargo](docs/rust.md#cargo)
     * [Visual Studio Code](docs/rust.md#visual-studio-code)
     * [Crates - Frameworks and libraries](docs/rust.md#crates---frameworks-and-libraries)

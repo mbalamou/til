@@ -4,6 +4,8 @@
 
 ## Install Node and NPM using NVM
 
+* [NVM](https://github.com/nvm-sh/nvm)
+
 ```
 nvm install v16
 nvm alias stable v16

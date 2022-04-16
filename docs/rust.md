@@ -29,6 +29,7 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 ## Articles and blogs
 
 * [Finding Closure in Rust](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
+* [How to Idiomatically Use Global Variables in Rust](https://www.sitepoint.com/rust-global-variables/)
 * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Learning about Rust's next, peek, and windows](https://sts10.github.io/2020/10/06/peeking-the-pivot.html)
 * [min-sized-rust](https://github.com/johnthagen/min-sized-rust) - Minimize the size of a Rust binary
@@ -83,6 +84,20 @@ rustup override set nightly
 
 cargo build
 cargo run
+```
+
+## Macros
+
+Features and crate-level configuration:
+```
+// Requires Rust from the nightly channel as of rustc 1.59.0-nightly (e012a191d 2022-01-06)
+#![feature(mixed_integer_ops)]
+
+// Allow modules to have the same name as their parent module
+#![allow(clippy::module_inception)]
+
+// Show more lint warnings
+#![warn(clippy::all, clippy::pedantic)]
 ```
 
 ## Cargo
@@ -149,6 +164,7 @@ Name | Description
 [cursive](https://github.com/gyscos/Cursive)|Text User Interface (TUI) library. ([Comparison to tui](https://github.com/gyscos/cursive/wiki/Cursive-vs-tui%E2%80%90rs)).
 [enum-iterator](https://crates.io/crates/enum-iterator)|`#[derive(IntoEnumIterato)` for enums
 [gtk-rs](https://gtk-rs.org/)|GTK4, Cairo, glib, etc bindings
+[OnceCell](https://crates.io/crates/once_cell)|Single assignment cells and lazy values
 [rand](https://github.com/rust-random/rand)|Generate random numbers
 [Serde JSON](https://github.com/serde-rs/json)|Serialize and deserialize JSON
 [strum](https://github.com/Peternator7/strum)|Various `#[derive(...)]` for enums

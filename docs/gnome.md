@@ -45,7 +45,7 @@ $ gnome-screensaver &
 * [Hardcode Tray](https://github.com/bilelmoussaoui/Hardcode-Tray)
 * [Numix Icon Theme](https://github.com/numixproject/numix-icon-theme)
 
-Applications: `gnome-tweaks` or `gtk-theme-switch2` (GTK2)
+Applications: `gnome-tweaks`, `gtk-theme-switch2` (GTK2), or `lxappearance`
 
 ```
 sudo apt-get install -qy --no-install-recommends \
