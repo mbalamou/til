@@ -169,6 +169,7 @@ Name | Description
 [Serde JSON](https://github.com/serde-rs/json)|Serialize and deserialize JSON
 [strum](https://github.com/Peternator7/strum)|Various `#[derive(...)]` for enums
 [tempfile](https://github.com/Stebalien/tempfile)|Create temporary files or directories
+[tera](https://tera.netlify.app/)|Template engine inspired by Jinja2
 [tokio](https://github.com/tokio-rs/tokio)|Async runtime, including IO, networking, scheduling, and timers
 [tui](https://crates.io/crates/tui)|Text User Interface (TUI) library. ([Comparison to cursive](https://github.com/gyscos/cursive/wiki/Cursive-vs-tui%E2%80%90rs)).
 [uuid](https://github.com/uuid-rs/uuid)|Generate and parse UUIDs
