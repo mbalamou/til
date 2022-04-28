@@ -13,4 +13,4 @@
 
 ## Newsletters
 
-* [https://fs.blog/newsletter/](https://fs.blog/newsletter/) ([Archive](https://fs.blog/brain-food/))
+* [Sunday Brain Food newsletter](https://fs.blog/newsletter/) ([Archive](https://fs.blog/brain-food/))
