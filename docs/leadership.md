@@ -13,4 +13,4 @@
 
 ## Newsletters
 
-* [Sunday Brain Food newsletter](https://fs.blog/newsletter/) ([Archive](https://fs.blog/brain-food/))
+* [Sunday Brain Food](https://fs.blog/newsletter/) ([Archive](https://fs.blog/brain-food/)) - Every Sunday we share timeless insights and ideas that you can use at work and home
