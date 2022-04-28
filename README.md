@@ -98,6 +98,7 @@ rake
   * [Kubernetes](docs/kubernetes.md#kubernetes)
     * [Minikube](docs/kubernetes.md#minikube)
   * [Leadership](docs/leadership.md#leadership)
+    * [Articles](docs/leadership.md#articles)
     * [Books](docs/leadership.md#books)
     * [Courses](docs/leadership.md#courses)
     * [Newsletters](docs/leadership.md#newsletters)

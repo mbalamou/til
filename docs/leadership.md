@@ -1,5 +1,9 @@
 # Leadership
 
+## Articles
+
+* [Staff Developer Archetypes](https://staffeng.com/guides/staff-archetypes)
+
 ## Books
 
 
