@@ -259,6 +259,20 @@ This error occurs when running `apt update` on an unsupported version of Ubuntu.
 sudo sed -i -e 's/\([a-z]*.\?\)\?archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
 ```
 
+### Redshift.conf is not read when it is a symlink
+
+[GitHub issue](https://github.com/jonls/redshift/issues/858)
+
+1. Permit access to the symlink source by editing `/etc/apparmor.d/local/usr.bin.redshift`:
+```
+owner @{HOME}/PATH_TO_VAULT/redshift.conf r,
+```
+
+2. Restart [AppArmor](https://apparmor.net/):
+```
+sudo systemctl reload apparmor
+```
+
 ### gnome-control-center segmentation fault on startup
 
 * [StackOverflow](https://askubuntu.com/a/1356965)
