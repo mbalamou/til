@@ -219,6 +219,7 @@ rake
       * [apt update 404](docs/ubuntu.md#apt-update-404)
       * [Redshift.conf is not read when it is a symlink](docs/ubuntu.md#redshiftconf-is-not-read-when-it-is-a-symlink)
       * [gnome-control-center segmentation fault on startup](docs/ubuntu.md#gnome-control-center-segmentation-fault-on-startup)
+      * [SSH RSA authentication is not working](docs/ubuntu.md#ssh-rsa-authentication-is-not-working)
   * [Vim](docs/vim.md#vim)
     * [Commands](docs/vim.md#commands)
     * [Tips](docs/vim.md#tips)

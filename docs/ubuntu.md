@@ -282,3 +282,15 @@ This can be caused by accessing the "Sound" section/tab of Gnome Control Center 
 ```
 rm -rf .config/dconf/
 ```
+
+### SSH RSA authentication is not working
+
+* [StackOverflow](https://askubuntu.com/questions/1404049/ssh-without-password-does-not-work-after-upgrading-from-18-04-to-22-04)
+
+RSA SHA-1 is deprecated starting in Ubuntu 22.04. Re-enable it by adding the following
+to `/etc/ssh/ssh_config`:
+```
+Host *
+   # ...
+   PubkeyAcceptedKeyTypes +ssh-rsa
+```
