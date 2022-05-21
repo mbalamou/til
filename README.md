@@ -116,6 +116,7 @@ rake
       * [Bypass macOS app installation restrictions](docs/macos.md#bypass-macos-app-installation-restrictions)
       * [Fix OpenSSL errors](docs/macos.md#fix-openssl-errors)
       * [Reinstall xcode](docs/macos.md#reinstall-xcode)
+  * [Remove RODE Connect virtual audio devices](docs/macos.md#remove-rode-connect-virtual-audio-devices)
   * [Make](docs/make.md#make)
     * [Pass all args to target](docs/make.md#pass-all-args-to-target)
   * [Man](docs/man.md#man)
