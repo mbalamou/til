@@ -195,7 +195,7 @@ sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 ```
 
-# Remove RODE Connect virtual audio devices
+### Remove RODE Connect virtual audio devices
 
 After installing [RODE Connect](https://rode.com/en/software/rodeconnect#module_19) - in order to upgrade RODE NT-USB Mini drivers - 3 new virtual audio devices are installed. To remove them:
 
