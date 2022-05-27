@@ -117,6 +117,7 @@ rake
       * [Fix OpenSSL errors](docs/macos.md#fix-openssl-errors)
       * [Reinstall xcode](docs/macos.md#reinstall-xcode)
       * [Remove RODE Connect virtual audio devices](docs/macos.md#remove-rode-connect-virtual-audio-devices)
+      * [Restart audio system](docs/macos.md#restart-audio-system)
   * [Make](docs/make.md#make)
     * [Pass all args to target](docs/make.md#pass-all-args-to-target)
   * [Man](docs/man.md#man)

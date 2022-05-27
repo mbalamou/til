@@ -201,3 +201,11 @@ After installing [RODE Connect](https://rode.com/en/software/rodeconnect#module_
 
 1. Navigate to: `Macintosh HD > Library > Audio > Plug-ins > HAL`
 2. Delete the "RODE ..." folder
+
+### Restart audio system
+
+* [StackOverflow](https://superuser.com/a/1656587)
+
+```
+sudo launchctl kickstart -kp system/com.apple.audio.coreaudiod
+```
