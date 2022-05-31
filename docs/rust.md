@@ -176,7 +176,7 @@ Name | Description
 
 ## Software
 
-[bevy](https://bevyengine.org/)|Game engine
+* [bevy](https://bevyengine.org/) - Game engine
 
 ## Debugging
 
