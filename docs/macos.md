@@ -202,6 +202,17 @@ After installing [RODE Connect](https://rode.com/en/software/rodeconnect#module_
 1. Navigate to: `Macintosh HD > Library > Audio > Plug-ins > HAL`
 2. Delete the "RODE ..." folder
 
+### Prevent Google Meet from changing the input device volume level
+
+* [Source](https://codeandframes.com/audio/how-to-stop-google-meet-to-change-microphone-volume.html)
+
+1. Run `open -a 'Audio MIDI Setup'`
+1. Click the "+" icon in the bottom-right
+1. Click "Create Aggregate Device"
+1. Add only your input device, eg. "RODE NT-USB Mini"
+1. Option/Alt+click the sound icon in the macOS taskbar
+1. Select the newly created Aggregate Device as the default input device
+
 ### Restart audio system
 
 * [StackOverflow](https://superuser.com/a/1656587)
