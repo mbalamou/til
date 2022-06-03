@@ -6,6 +6,7 @@
 
 ## Books
 
+* [The Manager's Handbook](https://themanagershandbook.com/)
 
 ## Courses
 
