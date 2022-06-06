@@ -45,7 +45,7 @@ Read a local copy of "The Rust Programming Language" book in a web browser with:
 Install system packages
 ```
 # Make sure rust isn't installed, because we'll use `rustup` to manage rust and cargo installations
-# Linux: apt uninstall cargo rust
+# Linux: apt remove cargo rust
 # macOS: brew uninstall rust
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
