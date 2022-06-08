@@ -1,5 +1,17 @@
 # Python
 
+## Books
+
+* [Effective Python](https://effectivepython.com/)
+* [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/)
+* [Learn Python 3 the Hard Way - A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code](https://www.goodreads.com/book/show/35561829-learn-python-3-the-hard-way)
+* [Programming Python](https://www.oreilly.com/library/view/programming-python-4th/9781449398712/)
+* [Two Scoops of Django 3.x](https://www.feldroy.com/books/two-scoops-of-django-3-x)
+
+## Newsletters
+
+* [Pycoder's Weekly](https://pycoders.com/) - Stay Up-to-Date With Your Weekly Dose Of Python
+
 ## Set default versions (Ubuntu 18.04)
 
 ```

@@ -8,6 +8,10 @@
 * Copy/paste in [Linux](http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting-ubuntu/#comment-4242059466) and
 [macOS (iTerm2)](https://stackoverflow.com/a/19843650)
 
+## Books
+
+* [tmux 2 - Productive Mouse-Free Development](https://pragprog.com/titles/bhtmux2/tmux-2/)
+
 ## Common commands
 
 Command|Description

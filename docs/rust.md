@@ -17,13 +17,13 @@
 
 ## Books
 
+* [Hands-on Rust - Effective Learning through 2D Game Development and Play](https://pragprog.com/titles/hwrust/hands-on-rust/)
 * [Programming Rust, 2nd Edition (2021)](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
 * [Rust for Rustaceans (2021)](https://nostarch.com/rust-rustaceans)
 * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/index.html)
 * [The Rust Programming Language (2019)](https://doc.rust-lang.org/book/)
   * [RefCell<T> and the Interior Mutability Pattern](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html)
   * [Shared-State Concurrency](https://doc.rust-lang.org/book/ch16-03-shared-state.html)
-
 Read a local copy of "The Rust Programming Language" book in a web browser with: `rustup doc --book`
 
 ## Articles and blogs

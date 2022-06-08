@@ -1,12 +1,28 @@
 # JavaScript
 
 * [NPM](./npm.md)
+* [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
+
+## Books
+
+* [JavaScript Allongé, the "Six" Edition](https://leanpub.com/javascriptallongesix/read)
+* [JavaScript The Good Parts](https://www.oreilly.com/library/view/javascript-the-good/9780596517748/)
+* [JavaScript - The Definitive Guide](https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/)
+* [JavaScript - The New Toys](https://www.wiley.com/en-us/JavaScript:+The+New+Toys-p-9781119367963)
+* [Programming TypeScript](https://www.oreilly.com/library/view/programming-typescript/9781492037644/)
+* [Secrets of the JavaScript Ninja](https://www.manning.com/books/secrets-of-the-javascript-ninja-second-edition)
+
+## Articles
+
 * [Use `console.log()` like a pro](https://markodenic.com/use-console-log-like-a-pro/)
 
-## Install NVM on macOS
+## Getting started
+
+### Install NVM on macOS
 
 * [NVM on GitHub](https://github.com/nvm-sh/nvm)
 * [NVM on Homebrew](https://formulae.brew.sh/formula/nvm)
+
 ```
 brew install nvm
 
@@ -34,7 +50,7 @@ EOF
 
 * [storybook.js.org](https://storybook.js.org/)
 
-### TypeScript
+## TypeScript
 
 * [React Typescript handbook](https://www.typescriptlang.org/docs/handbook/react.html)
 * [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)

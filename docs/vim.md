@@ -1,5 +1,9 @@
 # Vim
 
+## Books
+
+* [A Byte of Vim](https://github.com/swaroopch/byte-of-vim)
+
 ## Commands
 
 Command | Description

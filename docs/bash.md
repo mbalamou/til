@@ -1,4 +1,10 @@
-# BASH
+# bash
+
+## Books
+
+* [Learning the bash Shell](https://www.oreilly.com/library/view/learning-the-bash/0596009658/)
+* [The Shellcoder's Handbook - Discovering and Exploiting Security Holes](https://www.oreilly.com/library/view/the-shellcoders-handbook/9780470080238/)
+* [Unix Power Tools](https://www.oreilly.com/library/view/unix-power-tools/0596003307/)
 
 ## Command combination operator
 
