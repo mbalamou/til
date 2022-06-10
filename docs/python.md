@@ -1,5 +1,7 @@
 # Python
 
+* [./Software Engineering](./software-engineering.md)
+
 ## Books
 
 * [Effective Python](https://effectivepython.com/)

@@ -1,6 +1,6 @@
 # NPM
 
-* [JavaScript](./javascript.md)
+* [./JavaScript](./javascript.md)
 
 ## Install Node and NPM using NVM
 

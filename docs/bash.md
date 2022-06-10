@@ -1,5 +1,7 @@
 # bash
 
+* [./Software Engineering](./software-engineering.md)
+
 ## Books
 
 * [Learning the bash Shell](https://www.oreilly.com/library/view/learning-the-bash/0596009658/)

@@ -1,8 +1,8 @@
 # systemd
 
-* [Gnome](./gnome.md)
-* [Ubuntu](./ubuntu.md)
-* [Xorg](./xorg.md)
+* [./Gnome](./gnome.md)
+* [./Ubuntu](./ubuntu.md)
+* [./Xorg](./xorg.md)
 * [Debug unit cycles](https://unix.stackexchange.com/questions/193714/generic-methodology-to-debug-ordering-cycles-in-systemd)
 
 ## systemctl commands

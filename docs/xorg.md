@@ -1,8 +1,8 @@
 # Xorg
 
-* [Gnome](./gnome.md)
-* [Systemd](./systemd.md)
-* [Ubuntu](./ubuntu.md)
+* [./Gnome](./gnome.md)
+* [./Systemd](./systemd.md)
+* [./Ubuntu](./ubuntu.md)
 
 ## xrandr
 

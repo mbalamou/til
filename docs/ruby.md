@@ -1,6 +1,7 @@
 # Ruby
 
-* [Rails](./rails.md)
+* [./Rails](./rails.md)
+* [./Software Engineering](./software-engineering.md)
 
 ## Books
 

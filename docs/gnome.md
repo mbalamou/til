@@ -1,8 +1,8 @@
 # Gnome
 
-* [Systemd](./systemd.md)
-* [Ubuntu](./ubuntu.md)
-* [Xorg](./xorg.md)
+* [./Systemd](./systemd.md)
+* [./Ubuntu](./ubuntu.md)
+* [./Xorg](./xorg.md)
 
 ## gnome-screensaver settings
 

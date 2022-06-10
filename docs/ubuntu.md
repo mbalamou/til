@@ -1,8 +1,8 @@
 # Ubuntu
 
-* [Gnome](./gnome.md)
-* [Systemd](./systemd.md)
-* [Xorg](./xorg.md)
+* [./Gnome](./gnome.md)
+* [./Systemd](./systemd.md)
+* [./Xorg](./xorg.md)
 
 ## Applications and packages
 

@@ -1,6 +1,6 @@
 # Rails
 
-* [Ruby](./ruby.md)
+* [./Ruby](./ruby.md)
 
 ## Common commands
 

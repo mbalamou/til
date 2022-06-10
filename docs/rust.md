@@ -1,5 +1,6 @@
 # Rust
 
+* [./Software Engineering](./software-engineering.md)
 * [Blog](https://blog.rust-lang.org/) - Official blog
 * [Crates.io](https://crates.io) - Public package repository
 * [Discord](https://discord.gg/rust-lang) - Official discord server

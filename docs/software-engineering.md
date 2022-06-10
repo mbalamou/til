@@ -21,7 +21,7 @@
 * [Building Secure & Reliable Systems - Best Practices for Designing, Implementing, and Maintaining Systems](https://sre.google/books/)
 * [Clean Architecture - A Craftsman’s Guide to Software Structure and Design](https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/)
 * [Code Complete](https://www.oreilly.com/library/view/code-complete-2nd/0735619670/)
-* [Designing Data - Intensive Applications-The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
+* [Designing Data-Intensive Applications - The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 * [Design Patterns - Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
 * [Designing Event-Driven Systems](https://www.confluent.io/designing-event-driven-systems/)
 * [Implementing Domain-Driven Design](https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/)

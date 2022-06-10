@@ -1,6 +1,7 @@
 # JavaScript
 
-* [NPM](./npm.md)
+* [./NPM](./npm.md)
+* [./Software Engineering](./software-engineering.md)
 * [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
 
 ## Books
