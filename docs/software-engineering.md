@@ -51,6 +51,7 @@
 * [Linux Kernel Development](https://www.oreilly.com/library/view/linux-kernel-development/9780768696974/)
 * [Modern Operating Systems](https://csc-knu.github.io/sys-prog/books/Andrew%20S.%20Tanenbaum%20-%20Modern%20Operating%20Systems.pdf)
 * [pfSense - The Definitive Guide](https://www.goodreads.com/book/show/18940153-pfsense)
-* [TCP/IP Illustrated, Volume 1: The Protocols](https://www.oreilly.com/library/view/tcpip-illustrated-volume/9780132808200/)
+* [TCP/IP Illustrated, Volume 1 - The Protocols](https://www.oreilly.com/library/view/tcpip-illustrated-volume/9780132808200/)
+* [TCP/IP Illustrated, Volume 2 - The Implementation](https://www.oreilly.com/library/view/tcpip-illustrated/020163354X/)
 * [The Book of PF](https://www.goodreads.com/en/book/show/21929389-the-book-of-pf)
 * [Think OS - A Brief Introduction to Operating Systems](https://greenteapress.com/thinkos/)
