@@ -20,6 +20,7 @@
 * [Building Microservices](https://www.oreilly.com/library/view/building-microservices/9781491950340/)
 * [Building Secure & Reliable Systems - Best Practices for Designing, Implementing, and Maintaining Systems](https://sre.google/books/)
 * [Clean Architecture - A Craftsman’s Guide to Software Structure and Design](https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/)
+* [Code - The Hidden Language of Computer Hardware and Software](https://www.microsoftpressstore.com/store/code-the-hidden-language-of-computer-hardware-and-software-9780137909100)
 * [Code Complete](https://www.oreilly.com/library/view/code-complete-2nd/0735619670/)
 * [Designing Data-Intensive Applications - The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 * [Design Patterns - Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
@@ -28,6 +29,7 @@
 * [Refactoring](https://martinfowler.com/books/refactoring.html)
 * [The Architecture of Open Source Applications](http://aosabook.org/)
 * [The Design of Everyday Things](https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things)
+* [The Elements of Computing Systems - Building a Modern Computer from First Principles](https://mitpress.mit.edu/books/elements-computing-systems) ([Nand to Tetris](https://www.nand2tetris.org/))
 * [The Performance of Open Source Applications](http://aosabook.org)
 * [Visualizing Data](https://www.oreilly.com/library/view/visualizing-data/9780596514556/)
 * [Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)
@@ -36,6 +38,7 @@
 
 * [Apprenticeship Patterns - Guidance for the Aspiring Software Craftsman](https://www.goodreads.com/book/show/5608045-apprenticeship-patterns)
 * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
+* [Software Engineer interviews: Everything you need to prepare](https://www.techinterviewhandbook.org/software-engineering-interview-guide/) - Online guide
 
 ### Computer science
 
