@@ -6,8 +6,8 @@
 
 ### Lumber yards
 
-* [Central Fairbank](https://centralfairbank.com/)
-* [Exotic Woods](https://exotic-woods.com)
+* [Central Fairbank](https://centralfairbank.com/) - plywood and engineered lumber
+* [Exotic Woods](https://exotic-woods.com) - hardwood
 
 ### Cost of wood
 
