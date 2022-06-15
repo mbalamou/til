@@ -33,7 +33,7 @@ Shortcut|Description
 ---|---
 `C-b ?`|Help; list all keybindings
 `C-b d`|Detach
-`C-b c`|Create a window
+`C-b c` or `C-b t`|Create a window
 `C-b C-b d`|[Detach inner tmux session](https://superuser.com/a/249671)
 `C-b D`|List clients
 `C-b [`|Enter copy/paste and [scroll mode](#scrolling)

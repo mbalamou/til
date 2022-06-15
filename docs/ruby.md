@@ -1,5 +1,6 @@
 # Ruby
 
+* [./JetBrains IDEs](./jetbrains-ides.md)
 * [./Rails](./rails.md)
 * [./Software Engineering](./software-engineering.md)
 
@@ -24,30 +25,38 @@
 
 ## Getting started
 
-* [chruby](https://github.com/postmodern/chruby)
-* [ruby-install](https://github.com/postmodern/ruby-install#readme)
-* [shadowenv](https://github.com/Shopify/shadowenv)
-
 ### Install Ruby on macOS
 
 * [Enable auto-switching](https://github.com/postmodern/chruby#auto-switching)
 
 ```
-brew install ruby-install
 brew install chruby
-ruby-install ruby 2.7.2
-chruby ruby-2.7.2
+brew install ruby-install
+ruby-install ruby
+# >>> Successfully installed ruby 3.0.3 into ${HOME}/.rubies/ruby-3.0.3
+
+chruby 3.0.3
+echo ruby-3.0.3 > .ruby-version
 ```
+
+## Gems - Frameworks and libraries
+
+Name | Description
+--- | ---
+[chruby](https://github.com/postmodern/chruby)|Changes the current Ruby
+[rubocop](https://github.com/rubocop/rubocop)|Static code analyzer and formatter
+[ruby-install](https://github.com/postmodern/ruby-install)|Installs Ruby, JRuby, Rubinius, TruffleRuby or MRuby
+[shadowenv](https://github.com/Shopify/shadowenv)|reversible directory-local environment variable manipulations
+[sorbet](https://sorbet.org/)|fast, powerful type checker designed for Ruby
 
 ## IDEs
 
-## Rubymine
+### Rubymine
 
-* [TIL/JetBrains IDEs](./jetbrains-ides.md)
 * [Remote debugging](https://www.jetbrains.com/help/ruby/attaching-to-remote-process.html)
 * [Spring](https://www.jetbrains.com/help/ruby/spring.html)
 
-## Visual Studio Code
+### Visual Studio Code
 
 * [Debugging Ruby](https://dev.to/dnamsons/ruby-debugging-in-vscode-3bkj)
 * [Shadowenv extension](https://github.com/Shopify/vscode-shadowenv)

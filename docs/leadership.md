@@ -29,6 +29,7 @@
 * [The Five Dysfunctions of a Team - A Leadership Fable](https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team)
 * [The Manager's Handbook](https://themanagershandbook.com/)
 * [The Manager's Path](https://www.oreilly.com/library/view/the-managers-path/9781491973882/)
+* [The Personal MBA](https://personalmba.com/)
 * [The Pragmatic Programmer - From Journeyman to Master](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
 * [The Principles of Product Development Flow - Second Generation Lean Product Development](https://www.goodreads.com/en/book/show/6278270-the-principles-of-product-development-flow)
 * [The Productive Programmer](https://www.oreilly.com/library/view/the-productive-programmer/9780596519780/)
