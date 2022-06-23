@@ -13,6 +13,7 @@
 * [Official site](https://www.rust-lang.org/)
 * [Playground](https://play.rust-lang.org/) - Run code on the web
 * [Reddit /r/rust](https://www.reddit.com/r/rust)
+* [RFCs](https://github.com/rust-lang/rfcs)
 * [`##rust` @ irc.libera.chat](https://web.libera.chat/?chan=##rust) - IRC channel
 * [rustup](https://rustup.rs/) - Toolchain installer and manager
 
