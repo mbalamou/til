@@ -6,6 +6,7 @@
 
 * [Become an Effective Software Engineering Manager](https://pragprog.com/titles/jsengman/become-an-effective-software-engineering-manager/)
 * [Becoming a Technical Leader - An Organic Problem-Solving Approach](https://www.goodreads.com/book/show/714344.Becoming_a_Technical_Leader)
+* [Bugs in Writing - A Guide to Debugging Your Prose](https://www.goodreads.com/book/show/601222.Bugs_in_Writing)
 * [Coders at Work - Reflections on the Craft of Programming](https://www.goodreads.com/en/book/show/6713575-coders-at-work)
 * [Crucial Conversations - Tools for Talking When Stakes Are High](https://www.goodreads.com/en/book/show/15014.Crucial_Conversations)
 * [Evidence-based Software Engineering](https://open.umn.edu/opentextbooks/textbooks/1121)
@@ -22,6 +23,7 @@
 * [Site Reliability Engineering - How Google Runs Production Systems](https://sre.google/books/)
 * [Software Engineering at Google](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)
 * [Start With Why](https://simonsinek.com/books/start-with-why/)
+* [Style - Toward Clarity and Grace](https://www.goodreads.com/en/book/show/246853)
 * [Team of Teams - New Rules of Engagement for a Complex World](https://www.goodreads.com/book/show/22529127-team-of-teams)
 * [The Culture Code - The Secrets of Highly Successful Group](https://danielcoyle.com/the-culture-code/)
 * [The Fearless Organization - Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth](https://fearlessorganization.com/the-fearless-organization)
@@ -45,6 +47,7 @@
 ## Courses
 
 * [Decision by design](https://fscourses.com/p/decision-by-design-sign-up-now) - Learn the skills and systems you need to master decision-making, unlock your full potential, and intentionally design the life you want (12 weeks)
+* [Technical Writing Courses](https://developers.google.com/tech-writing) - A collection of courses and learning resources offered by Google
 
 ## Newsletters
 
