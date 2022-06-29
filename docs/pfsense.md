@@ -25,6 +25,8 @@ Set "Outgoing Network Interfaces" to "LAN"
 
 ## VPN
 
+* [OpenVPN Site-to-Site Configuration Example with SSL/TLS](https://docs.netgate.com/pfsense/en/latest/recipes/openvpn-s2s-tls.html)
+
 ### How to configure remote access on a client Linux device
 
 * [OpenVPN Client Export](https://docs.netgate.com/pfsense/en/latest/packages/openvpn-client-export.html)
