@@ -124,6 +124,7 @@ rake
       * [Remove RODE Connect virtual audio devices](docs/macos.md#remove-rode-connect-virtual-audio-devices)
       * [Prevent Google Meet from changing the input device volume level](docs/macos.md#prevent-google-meet-from-changing-the-input-device-volume-level)
       * [Restart audio system](docs/macos.md#restart-audio-system)
+      * [External monitor flickers](docs/macos.md#external-monitor-flickers)
   * [Make](docs/make.md#make)
     * [Pass all args to target](docs/make.md#pass-all-args-to-target)
   * [Man](docs/man.md#man)
