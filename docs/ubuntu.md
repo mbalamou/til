@@ -40,10 +40,13 @@ Application | Description
 
 ### Monitoring and statistics commands
 
+* [GPU monitoring tools](https://www.cyberciti.biz/open-source/command-line-hacks/linux-gpu-monitoring-and-diagnostic-commands/)
+
 Command | Description
 --- | ---
 atop | AT Computing's System & Process Monitor
 htop | ncurses-based process viewer for Linux
+intel_gpu_top, nvtop, radeontop | Monitor graphics devices
 iostat | CPU and input/output statistics for devices and partitions
 lsof | Lists on its standard output file information about files opened by processes
 mtr | Combines  the functionality of the traceroute and ping programs in a single network diagnostic tool
