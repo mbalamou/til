@@ -16,6 +16,7 @@
 
 ## Articles and blogs
 
+* [New language features since version 2.0 (2013)](https://rubyreferences.github.io/rubychanges/evolution.html)
 * [The Practical Effects of the GVL on Scaling in Ruby](https://www.speedshop.co/2020/05/11/the-ruby-gvl-and-scaling.html)
 * [To Thread or Not to Thread: An In-Depth Look at Ruby’s Execution Models](https://shopify.engineering/ruby-execution-models)
 

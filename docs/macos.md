@@ -220,3 +220,16 @@ After installing [RODE Connect](https://rode.com/en/software/rodeconnect#module_
 ```
 sudo launchctl kickstart -kp system/com.apple.audio.coreaudiod
 ```
+
+### External monitor flickers
+
+* [MacRumors](https://forums.macrumors.com/threads/variable-refresh-rate-freesync-gsync-flicker.2320463/)
+* [Reddit](https://www.reddit.com/r/MacOS/comments/qg9qki/updated_to_monterey_monitor_is_flickering_help/)
+
+If your monitor support Variable Refresh Rate (VRR), such as AMD FreeSync or nVidia Gsync,
+then VRR will be enabled in System Preferences > Displays, which may cause flickering.
+Even if disabled manually, rebooting or disconnecting/reconnecting the monitor will re-enable
+the setting.
+
+Workaround: Disable VRR in your monitor's OSD.
+
