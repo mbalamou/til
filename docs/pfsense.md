@@ -44,7 +44,7 @@ On the client Linux device:
 
 ## Fix boot loop
 
-1. Connect via [serial console]()
+1. Connect via [serial console](./networking.md#serial-console)
 1. Press SPACE key during kernel boot to drop to `loader>` prompt
 1. Run `/sbin/fsck_ufs -fy /` multiple times until the root partition reports as "clean"
 1. Run `reboot`
