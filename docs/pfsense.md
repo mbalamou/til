@@ -41,3 +41,10 @@ On the client Linux device:
 1. Navigate to VPN Connections -> Configure VPN
 1. In the "Choose a Connection Type" prompt, select "Import a saved VPN configuration..."
 1. Select the previously exported *.ovpn file
+
+## Fix boot loop
+
+1. Connect via [serial console]()
+1. Press SPACE key during kernel boot to drop to `loader>` prompt
+1. Run `/sbin/fsck_ufs -fy /` multiple times until the root partition reports as "clean"
+1. Run `reboot`
