@@ -62,3 +62,18 @@ sudo iwconfig wlan0 power off
 # Increase txpower
 sudo iwconfig wlan0 txpower 2dBm
 ```
+
+## Serial console
+
+* [Howto](https://opensource.com/article/20/5/tio-linux)
+
+```
+sudo dmesg |grep -E 'tty(S|U)'
+
+sudo apt install minicom setserial tio
+
+sudo setserial -g /dev/ttyUSB0
+
+tio /dev/ttyUSB0
+# ctrl-t ?   List available key commands
+```
