@@ -12,11 +12,11 @@ Platform | Recommended core
 Game Boy/Color (GB) | [SameBoy](https://docs.libretro.com/library/sameboy/)
 Game Boy Advance (GBA) | [mGBA](https://docs.libretro.com/library/mgba/)
 GameCube | [Dolphin](https://docs.libretro.com/library/dolphin/)
-Genesis | [Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)
 Nintendo 64 (N64) | [Mupen64Plus-Next](https://docs.libretro.com/library/mupen64plus/)
 Nintendo DS (DSi) | [DeSmuME](https://docs.libretro.com/library/desmume/)
 Nintendo Entertainment System (NES) | [Mesen](https://docs.libretro.com/library/mesen/)
 Playstation 1 (PSX) | [Beetle PSX HW](https://docs.libretro.com/library/beetle_psx_hw/)
+Sega Genesis | [Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)
 Super Nintendo (SNES) | [higan Accuracy](https://docs.libretro.com/library/higan_accuracy/) or [Snex9x](https://docs.libretro.com/library/snes9x/)
 
 ## RetoArch on Xbox
