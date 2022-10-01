@@ -2,6 +2,8 @@
 
 * [Official site](https://www.libretro.com/)
 * [Docs](https://docs.libretro.com/)
+* [Flathub](https://flathub.org/apps/details/org.libretro.RetroArch)
+* [ansible-workstation/games](https://github.com/andornaut/ansible-workstation/tree/master/roles/games)
 
 ## Cores
 
@@ -24,3 +26,14 @@ Super Nintendo (SNES) | [higan Accuracy](https://docs.libretro.com/library/higan
 * [gamr13.github.io](https://gamr13.github.io/)
 * [Discord - Xbox Emulation Hub](https://discord.com/channels/1007582798598647889/1007590400220991549)
 * [Install guide video (YouTube)](https://www.youtube.com/watch?v=dV9GyKicrAg)
+
+## Troubleshooting
+
+**Disable Kiosk Mode**
+
+```
+configFile="${HOME}/.var/app/org.libretro.RetroArch/config/retroarch/retroarch.cfg"
+sed -i 's/\(kiosk_mode_enable\s*=\s*\).*/\1"false"/g' ${configFile}
+```
+
+
