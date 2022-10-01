@@ -17,7 +17,7 @@ Nintendo 64 (N64) | [Mupen64Plus-Next](https://docs.libretro.com/library/mupen64
 Nintendo DS (DSi) | [DeSmuME](https://docs.libretro.com/library/desmume/)
 Nintendo Entertainment System (NES) | [Mesen](https://docs.libretro.com/library/mesen/)
 Playstation 1 (PSX) | [Beetle PSX HW](https://docs.libretro.com/library/beetle_psx_hw/)
-Super Nintendo (SNES) | [higan Accuracy](https://docs.libretro.com/library/higan_accuracy/)
+Super Nintendo (SNES) | [higan Accuracy](https://docs.libretro.com/library/higan_accuracy/) or [Snex9x](https://docs.libretro.com/library/snes9x/)
 
 ## RetoArch on Xbox
 
