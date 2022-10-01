@@ -175,6 +175,7 @@ rake
   * [RetroArch](docs/retroarch.md#retroarch)
     * [Cores](docs/retroarch.md#cores)
     * [RetoArch on Xbox](docs/retroarch.md#retoarch-on-xbox)
+    * [Troubleshooting](docs/retroarch.md#troubleshooting)
   * [Ruby](docs/ruby.md#ruby)
     * [Books](docs/ruby.md#books)
     * [Articles and blogs](docs/ruby.md#articles-and-blogs)
