@@ -262,7 +262,7 @@ rewind_enable = "false"
 ```
 
 1. Navigate to Settings -> Drivers
-1. Set "Video" to "d3d11"
+1. Set "Video" to "d3d11" (Xbox Series) or "gl" (Linux), but not "vulkan"
 1. Save the configuration, and restart RetroArch
 
 **Fix GameCube/Dolphin copy/load error when running a game**
